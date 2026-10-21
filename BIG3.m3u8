@@ -18,6 +18,8 @@ http://cdngw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=1TV_hd.m3u8
 
 #EXTINF:-1 group-title="ОБЩИЕ" tvg-id="pervy" tvg-logo="http://i122.fastpic.org/big/2023/0704/13/cd5a5508b20da12d6131cafd8eb23513.png",Первый канал HD
 http://178.212.71.253:8000/play/62/index.m3u8
+#EXTINF:-1 group-title="ОБЩИЕ" tvg-id="pervy" tvg-logo="http://i122.fastpic.org/big/2023/0704/13/cd5a5508b20da12d6131cafd8eb23513.png",Первый канал HD
+https://stream8.cinerama.uz/1214/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="ОБЩИЕ" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-logo="http://epg.it999.ru/img/146.png",Первый канал
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko)  Mobile/15E148, WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer 
@@ -79,7 +81,7 @@ https://live-mirror-01.ott.tricolor.tv/live/live/Rossia_1_0_hd/hls_enc/Rossia_1_
 
 
 #EXTINF:-1 group-title="ОБЩИЕ" tvg-id="rossia1" tvg-logo="http://i122.fastpic.org/big/2023/0705/de/ab393bef44b80dc1d57351855763b4de.png",Россия 1 HD
-
+https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
 
 #EXTINF:-1 group-title="ОБЩИЕ" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Россия 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko)  Mobile/15E148, WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer 
@@ -160,6 +162,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
 
 #EXTINF:-1 group-title="ОБЩИЕ" tvg-id="kultura" tvg-logo="https://epgx.site/p/kultura.png",Россия К HD 
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
+#EXTINF:-1 group-title="ОБЩИЕ" tvg-id="kultura" tvg-logo="https://epgx.site/p/kultura.png",Россия К HD 
+https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="kultura" tvg-logo="https://cs1.ottgoods.ru/media/v2/f59710c8-067c-4fae-92a1-b1c07416251c" group-title="ОБЩИЕ",Россия - Культура HD
 http://cdngw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=rossia_k.m3u8&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc5MjMxNTAxNywiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzkxNzEwMjE3LCJzZXNzaW9uX2lkIjoiNWIwODZjYmRhODcwYTk2NjMzMTg1MDkxZThhYjcyOTAiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.t-r9kPNczeDnBs-Mdje_ilLt1qDsPuYxohzL6SjeM0s
@@ -208,7 +212,7 @@ https://live-stream-22.ott.tricolor.tv/live/live/NTV_0_hd/hls_enc/NTV_0_hd.m3u8?
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://cs1.ottgoods.ru/media/v2/46576758-c8f7-45a8-b18e-f60f7f8f49fd" group-title="ОБЩИЕ",Телекомпания НТВ HD
 http://cdngw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=NTV_0_hd.m3u8&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc5MjMxNTAxNywiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzkxNzEwMjE3LCJzZXNzaW9uX2lkIjoiNWIwODZjYmRhODcwYTk2NjMzMTg1MDkxZThhYjcyOTAiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.t-r9kPNczeDnBs-Mdje_ilLt1qDsPuYxohzL6SjeM0s
 #EXTINF:-1 group-title="ОБЩИЕ",НТВ HD
-
+http://flussonic.linkintel.ru/ntv/index.m3u8
 #EXTINF:-1 tvg-id="ntv"group-title="ОБЩИЕ",НТВ HD
 #EXTVLCOPT:http-user-agent=SmartTV
 http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
@@ -891,6 +895,10 @@ http://stream-msk-04.ott.tricolor.tv/dtv/id289_MSKSG-PVR-1--RT/03/plst.m3u8?drmr
 #EXTINF:-1 tvg-id="rt-news",RT News HD
 http://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 
+
+#EXTINF:-1 group-title="НОВОСТИ📰NEWS", РОССИЯ 24 HD (1080p)
+https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8
+
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Россия 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko)  Mobile/15E148, WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer le/15E148, WINK/1.28.2 Mobile/15E148, WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer 
 http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/playlist.m3u8
@@ -902,7 +910,7 @@ http://cdngw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=rossia_24.m
 http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/playlist.m3u8
 
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS", РОССИЯ 24
-https://uiptv.do.am/1ufc/000000006/playlist.m3u8
+http://176.118.197.101/Rossiya24/index.m3u8
 
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS",Тува 24
 http://vod.tuva.ru/tuva24/index.m3u8
@@ -956,7 +964,8 @@ https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/playlist_1080.m3u8
 
 
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS" tvg-id="rtvi" tvg-logo="http://picons.cmshulk.com/picons/300928.png",RTVi HD
-
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS" tvg-logo="https://stv.ee/images/chlogos/Logo_new.png" logo="http://ex.iptvin.ru/pic/2/RTVi-527x316-tr.png" channelId="405" tvg-id="rtvi",RTVI
 
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS",RTVi
@@ -1244,6 +1253,14 @@ https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS" tvg-rec="7" timeshift="7",BBC News HD UK
 
 
+#EXTINF:-1 group-title="НОВОСТИ📰NEWS"tvg-id="GBNews.uk@SD",GB News (1080p)
+https://live-gbnews.simplestreamcdn.com/s3/gbnews_subs/index.m3u8
+#EXTINF:-1 group-title="НОВОСТИ📰NEWS"tvg-id="GBNews.uk@SD" ,GB News (1080p)
+https://hlspackager.akamaized.net/live/DB/GB_NEWS/HLS/GB_NEWS.m3u8
+#EXTINF:-1 group-title="НОВОСТИ📰NEWS"tvg-id="BBCNews.uk@NorthAmerica",BBC News North America (576p)
+https://tvsen1.aynaott.com/shn6jGTk/index.m3u8
+#EXTINF:-1 group-title="НОВОСТИ📰NEWS"tvg-id="BBCNews.uk@Europe",BBC News Europe (576p)
+https://stream8.cinerama.uz/1251/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS" tvg-id="abc-news"tvg-logo="https://play-lh.googleusercontent.com/nTsIPBqFOIjY84v-20yt1JZcvUrFQ9OvDW0la-KmWCHRYq4cF4bISDUh8d5Otc-sEjiD=w240-h480-rw", ABC NEWS
 https://c.mjh.nz/abc-news.m3u8
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS"tvg-id="abc-news-live-us" tvg-logo="https://epg.iptvx.one/picons/abc-news-live-us.png", ABC NEWS live
@@ -2339,6 +2356,8 @@ https://cdn2.invivo.bg/CLASSICAL_HARMONY_APPS/index.m3u8
 
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ🔎"tvg-id="vkus", Вкус
 
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ🔎"tvg-logo="https://i.ibb.co/p6gZ2BXn/image-4.png",Своя Игра
+https://cdn-dvr.ntv.ru/svoya_igra/tracks-v1a1/rewind-240.ts.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ🔎",Вопросы и Ответы
 http://stream.mcquack.net/76/index.m3u8
 
@@ -2952,8 +2971,7 @@ https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-id="smotrim-100-prazdnik" tvg-name="Смотрим 100% Праздник",СМОТРИМ 100% ПРАЗДНИК HD 
 
 
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://i.ibb.co/p6gZ2BXn/image-4.png",Своя Игра
-https://cdn-dvr.ntv.ru/svoya_igra/tracks-v1a1/rewind-240.ts.m3u8
+
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-name="Смотрим Честный детектив" tvg-logo="https://cdn-st2.smotrim.ru/vh/pictures/xw/456/954/5.png",Смотрим Честный детектив
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
 
@@ -2968,10 +2986,12 @@ https://live-mirror-19.ott.tricolor.tv/dtv/id1016_MSKSG-PVR-1--Kinozal28_SD/04/p
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-logo="https://i.ibb.co/rf5ChNbx/image-9.png",Паранормальный Архив
 http://kinowalk.hopto.org/paranormal404_live
 
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-name="TLC HD" tvg-logo="[img]http://epg.one/img2/425.png[/img]", TLC HD
-https://stream.telecomtv101.workers.dev/c/ch0631
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈", TLC 
-https://stream.telecomtv101.workers.dev/c/ch0644
+http://195.64.140.147:10137/137
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-name="TLC HD" tvg-logo="[img]http://epg.one/img2/425.png[/img]", TLC HD
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈", TLC 
+
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈", TLC 
 http://195.64.140.147:10137/137
 
@@ -2993,15 +3013,15 @@ https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-id="svetloe-tv", Светлое ТВ
-http://46.53.208.4:80/live/973.m3u8
+http://46.53.200.153:7777/play/svetloetv/index.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-id="narod-vsio-vidit"tvg-logo="https://cs1.ottgoods.ru/media/v2/3a1d3b24-25db-43d0-a003-61a43b2ec667", Народ Всё Видит
-http://188.225.31.197/bpk-tv/000008614/tve/index.m3u8
+
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://cs1.ottgoods.ru/media/v2/3a1d3b24-25db-43d0-a003-61a43b2ec667",НВВ
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=NVV_SD.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc5MjMxNTAxNywiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzkxNzEwMjE3LCJzZXNzaW9uX2lkIjoiNWIwODZjYmRhODcwYTk2NjMzMTg1MDkxZThhYjcyOTAiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.t-r9kPNczeDnBs-Mdje_ilLt1qDsPuYxohzL6SjeM0s
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://cs1.ottgoods.ru/media/v2/ec618dbb-3d0c-4277-b4e5-9a24362326bf",Новый Игровой Канал
-http://188.225.31.197/bpk-tv/000008615/tve/index.m3u8
+
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://cs1.ottgoods.ru/media/v2/ec618dbb-3d0c-4277-b4e5-9a24362326bf",Новый Игровой Канал
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=NIK_SD.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc5MjMxNTAxNywiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzkxNzEwMjE3LCJzZXNzaW9uX2lkIjoiNWIwODZjYmRhODcwYTk2NjMzMTg1MDkxZThhYjcyOTAiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.t-r9kPNczeDnBs-Mdje_ilLt1qDsPuYxohzL6SjeM0s
 
@@ -3258,8 +3278,6 @@ https://streaming.astrakhan.ru/telplushd/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-logo="https://files.taurer.org/iptv_content/assets/ru/KULTURA_TEMP.png",Kultura
 
-
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Mezzo Live HD
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТЕАТР
@@ -6890,6 +6908,8 @@ http://195.64.140.147:10072/72
 #EXTINF:-1 tvg-name=""tvg-id="vip-premiere"tvg-logo="https://epgx.site/p/vip-premiere.png"group-title="КИНО📺"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="",Viju+ Premiere HD
 #EXTVLCOPT:http-user-agent=SmartTV
 https://stream8.cinerama.uz/1056/tracks-v1a1/mono.m3u8
+
+
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="",Viju+ Serial 
 http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="",Viju+ Serial 
@@ -7135,8 +7155,8 @@ http://stream-msk-09.ott.tricolor.tv/dtv/id644_MSKSG-PVR-1--Hit_HD/03/plst.m3u8?
 
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="",Хит HD
 http://178.217.72.66:8080/hithd/index.m3u8
-
-
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="",Хит HD
+http://stream.mcquack.net/363/index.m3u8
 #EXTINF:-1 tvg-id="sony-scifi"tvg-logo="https://epg.iptvx.one/picons/sony-scifi.png" group-title="КИНО📺", • sciI-fi
 http://flussonic.mkpnet.ru/tv-e80cc885d4ae14d1/video.m3u8
 EXTINF:-1, tvg-id="sony-scifi"tvg-logo="https://epg.iptvx.one/picons/sony-scifi.png" group-title="КИНО📺", • sciI-fi
@@ -8271,7 +8291,7 @@ http://stream-msk-12.ott.tricolor.tv/dtv/id365_MSKSG-PVR-1--Mezzo/03/plst.m3u8?d
 http://stream.mcquack.net/276/index.m3u8
 
 #EXTINF:-1 group-title="МУЗЫКА🎶",Mezzo Live
-
+http://45.84.187.172:3001/udp/239.10.10.76:5000
 #EXTINF:-1 group-title="МУЗЫКА🎶"tvg-id="mezzo-live-hd"tvg-logo="https://epg.iptvx.one/picons/mezzo-live-hd.png",Mezzo Live (VPN)
 http://stream.mcquack.net/276/index.m3u8
 
@@ -8318,6 +8338,14 @@ http://mains.services/live/0228902066/tc674KJ3du/96883269-982a-4e98-9079-cf8f898
 http://mains.services/live/0228902066/tc674KJ3du/8c162f20-c30a-4245-8dc5-24d229e58f30.m3u
 #EXTINF:-1 group-title="МУЗЫКА🎶" tvg-name="" tvg-logo="https://i.ibb.co/spfjzHdG/image-80.png",BET SOUL
 http://mains.services/live/0228902066/tc674KJ3du/70788fac-6c9b-4019-9673-83c50f62165c.m3u
+
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Blues Music
+https://lbgo.bozztv.com/07/ushba0/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Midnight Lust Music
+https://lbgo.bozztv.com/07/ushba-midnightlustmusic/index.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Mafia
+https://lbgo.bozztv.com/07/ushba-mafia/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 group-title="МУЗЫКА🎶",Live music channel
 http://46.53.200.153:7777/play/Live_music_channel/index.m3u8
 #EXTINF:-1  group-title="МУЗЫКА🎶",Stingray iConcerts HD
@@ -9362,7 +9390,7 @@ https://d198ro05q94rc4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" tvg-id="no_epg_sport" group-title="МУЗЫКА🎶",Music 1
-https://rpn3.bozztv.com/dvrfl07/ushba-t5/tracks-v1a1/mono.m3u8
+https://lbgo.bozztv.com/07/ushba-t1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" tvg-id="no_epg_sport" group-title="МУЗЫКА🎶",Music 13
 https://fl1003.bozztv.com/ushba0/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n8LmW2bX/image-28.png" tvg-id="no_epg_sport" group-title="МУЗЫКА🎶",Music 14
@@ -9397,8 +9425,30 @@ https://rpn3.bozztv.com/dvrfl07/ushba42/tracks-v1a1/mono.m3u8
 https://rpn3.bozztv.com/dvrfl07/ushba63/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="МУЗЫКА🎶", МУЗЫКА 10
-
 https://rpn3.bozztv.com/dvrfl07/ushba33/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 1
+https://lbgo.bozztv.com/07/ushba-t1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 2
+https://lbgo.bozztv.com/07/ushba-t2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 3
+https://lbgo.bozztv.com/07/ushba-t3/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 4
+https://lbgo.bozztv.com/07/ushba-t4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 6
+https://lbgo.bozztv.com/07/ushba-monj/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 7
+https://lbgo.bozztv.com/07/ushba-m3/index.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 8
+https://lbgo.bozztv.com/07/ushba66/index.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 9
+https://lbgo.bozztv.com/07/ushba-RogerWaters/index.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 10
+https://lbgo.bozztv.com/07/ushba-t5/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="МУЗЫКА🎶" tvg-logo="https://ushba.tv/assets/images/logo-roku1.png" ,Музыка 11
+https://lbgo.bozztv.com/07/ushba-m2/tracks-v1a1/mono.m3u8
+
+
 #EXTINF:-1 group-title="МУЗЫКА🎶" tvg-name="" tvg-logo="https://i.postimg.cc/XJRYz4Q8/image-2025-07-10-T213600-508.png",Boktv
 https://livestream2.bokradio.co.za/hls/Bok5c.m3u8
 
@@ -13965,6 +14015,8 @@ http://188.225.31.197/bpk-tv/000008877/tve/index.m3u8
 http://31.148.48.15/Telekafe/index.m3u8
 #EXTINF:-1 group-title="КУХНЯ",Food Network HD
 http://stream.mcquack.net/298/index.m3u8
+#EXTINF:-1 group-title="КУХНЯ",Food Network HD
+http://stream.mcquack.net/216/index.m3u8
 #EXTINF:-1 group-title="КУХНЯ",Food Time HD
 http://stream.mcquack.net/216/index.m3u8
 
@@ -31597,6 +31649,8 @@ https://cdn.lwuk.live/live/smil:lwukweb.smil/playlist.m3u8
 https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4/playlist.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MOONBUG KIDS (1080P)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MOONBUG KIDS (720P)
+https://mumbai-edge.smartplaytv.in/Moonbug/index.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", N TV (US EASTERN) (720P) [NOT 24/7]
 https://a.jsrdn.com/broadcast/22680_3BR3zocwi9/-0500/c.m3u8
 #EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", NBC NEWS NOW (1080P)
@@ -31676,6 +31730,51 @@ https://rakuten-guardian-1-ie.samsung.wurl.tv/playlist.m3u8
 
 
 
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="CanalInfantil.us@SD",Canal Infantil (spanish)
+http://177.234.218.66:8084/play/a01x/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="NBC.us@KNTV",KNTV 11.1
+http://50.229.129.155/0.ts
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="MissionTV.us@SD",Mission TV (720p) [Not 24/7]
+http://stream.missiontv.com:1935/live/missiontv_720p/playlist.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="Newsmax2.us@SD",Newsmax 2 (720p)
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="NTDTVEnglish.us@USA",NTD TV English (720p)
+https://ntd02.akamaized.net/NTDA/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="",QVC West (720p)
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uswest/master.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="",Everyday Refresh (720p)
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc6us/master.m3u8
+
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="TennisChannel.us@SD",Tennis Channel (1080p)
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="" ,TVS Frontier Network (360p)
+https://rpn.bozztv.com/gusa/gusa-tvsfrontier/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="WGNDT1.us@SD",WGN-DT1 (720p)
+http://23.237.104.106:8080/USA_WGN/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="Willow.us@SD",Willow (720p)
+https://tvsen5.aynaott.com/willowhd/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="BabyFirst.us@Spanish",BabyFirst Spanish (720p)
+http://168.228.44.241:9997/play/a07u/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="NickJr.us@East",Nick Jr. (720p)
+http://tvsen7.aynascope.net/nickjr/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="KartoonChannel.us@SD",Kartoon Channel! (1080p)
+https://hlspackager.akamaized.net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="FunRoads.us@SD" ,Fun Roads (720p)
+https://www.funroads-hls1.com/funroads.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="ShopLC.us@SD" ,Shop LC (576p)
+https://tvsen3.aynaott.com/zZ6EndAn/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="AXSTV.us@SD" group-title="🇺🇸 Streams-US",AXS TV (576p)
+https://tvsen3.aynaott.com/P2fJzfsg/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="Laff.us@SD" ,Laff (576p)
+https://tvsen3.aynaott.com/UC6a8nsf/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="GiggleMug.us@SD" ,Giggle Mug (576p)
+https://tvsen3.aynaott.com/uYpFg3RV/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="GiggleMug.us@SD",Giggle Mug (576p)
+https://tvsen3.aynaott.com/uYpFg3RV/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="HallmarkChannel.us@East",Hallmark Channel (720p)
+http://41.205.93.154/HALLMARK/index.m3u8
+#EXTINF:-1 group-title="UNITED STATES 🇺🇸"tvg-id="6WiseTv.us@SD",6 Wise Tv (720p)
+https://edge.enhdtv.com/8150/index.m3u8
 
 #EXTINF:-1 group-title="UNITED STATES 🇺🇸",Go USA TV (VPN)
 https://brandusa-gousa-1-dk.samsung.wurl.tv/playlist.m3u8?checkedby:iptvcat.com
@@ -35184,6 +35283,9 @@ https://tvsw2-hls.secdn.net/tvsw2-chorigin/play/prod-2cb201942c94460d9356b2c1382
 #EXTINF:-1 group-title="GUYANA",THE PARLIAMENT OF GUYANA (720P) [NOT 24/
 https://ythls.armelin.one/channel/UCFcGxVIBPlx_l5eXfEl7jgw.m3u8
 
+
+#EXTINF:-1 group-title="BRAZIL 🇧🇷"tvg-id="AdultSwimLatinAmerica.us@Brazil",Adult Swim Latin America Brazil (720p)
+http://45.162.64.114/ADULT_SWIM/index.m3u8
 #EXTINF:-1 group-title="BRAZIL 🇧🇷",MAIS KIDS
 https://video03.logicahost.com.br/novafamilia01/novafamilia01/playlist.m3u8
 #EXTINF:-1 group-title="BRAZIL 🇧🇷",TV POP BRASIL
@@ -38913,239 +39015,262 @@ https://althingi-live.secure.footprint.net/althingi/live/index.m3u8
 https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl.m3u8
 
 
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SKY A (544P)
+#EXTINF:-1 tvg-name="TOKYO MX チャンネル" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/108_mx.png" tvg-id="" tvg-chno="CH 108" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",TOKYO MX チャンネル
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-tokyomx-cmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 tvg-name="日テレNEWS" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/104_ntvnews.png" tvg-id="rch_47" tvg-chno="rch_47" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",日テレNEWS
+https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news1hlscmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 tvg-name="FNNプライムオンライン" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/105_fnn.png" tvg-id="rch_108" tvg-chno="rch_108" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",FNNプライムオンライン
+
+#EXTINF:-1 tvg-name="MBSニュース" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/106_mbs.png" tvg-id="rch_115" tvg-chno="rch_115" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",MBSニュース
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news5-cmaf-rakutenjp/playlist.m3u8
+
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SKY A (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NHK WORLD JAPAN (1080P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NHK WORLD JAPAN (1080P)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NTV NEWS24 (480P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NTV NEWS24 (480P)
 https://n24-cdn-live.ntv.co.jp/ch02/index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="JAPAN 🇯🇵",QVC JAPAN
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",QVC JAPAN
 https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SHOP CHANNEL 1
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SHOP CHANNEL 1
 http://stream1.shopch.jp/HLS/out1/prog_index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SHOP CHANNEL 2
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SHOP CHANNEL 2
 http://stream1.shopch.jp/HLS/out2/prog_index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SHOP CHANNEL3
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SHOP CHANNEL3
 http://stream1.shopch.jp/HLS/out3/prog_index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SHOP CHANNEL4
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SHOP CHANNEL4
 http://stream1.shopch.jp/HLS/out4/prog_index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="JAPAN 🇯🇵",GSTV HD
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",GSTV HD
 https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
-#EXTINF:-1 group-title="JAPAN 🇯🇵",HIROSHIMA WEATHER INFORMATION
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",HIROSHIMA WEATHER INFORMATION
 https://hiroshima-tv-live.hls.wselive.stream.ne.jp/hiroshima-tv-live/live/playlist.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SHOPCH1
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SHOPCH1
 http://stream1.shopch.jp/HLS/out1/prog_index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SHOPC2
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SHOPC2
 http://stream1.shopch.jp/HLS/out2/prog_index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SHOPC3
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SHOPC3
 http://stream1.shopch.jp/HLS/out3/prog_index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SHOPC4
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SHOPC4
 http://stream1.shopch.jp/HLS/out4/prog_index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",ABC (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",ABC (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
-#EXTINF:-1 group-title="JAPAN 🇯🇵",ANIMAX (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",ANIMAX (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
-#EXTINF:-1 group-title="JAPAN 🇯🇵",ANN JAPANEWS24 (720P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",ANN JAPANEWS24 (720P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCGCZAYq5Xxojl_tSXcVJhiQ.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",AOMORI TV (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",AOMORI TV (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCdNYphHZdRYjpys_gwofUNQ.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",ASAHI SHIMBUN DIGITAL (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",ASAHI SHIMBUN DIGITAL (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCMKvT0YVLufHMdGLH89J1oA.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",AT-X (720P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",AT-X (720P)
 https://neetball.net/live/neet3.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",BBC NEWS ASIA PACIFIC (720P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",BBC NEWS ASIA PACIFIC (720P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
-#EXTINF:-1 group-title="JAPAN 🇯🇵",BS ASAHI (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",BS ASAHI (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
-#EXTINF:-1 group-title="JAPAN 🇯🇵",BS FUJI TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",BS FUJI TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06
-#EXTINF:-1 group-title="JAPAN 🇯🇵",BS NIPPON TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",BS NIPPON TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02
-#EXTINF:-1 group-title="JAPAN 🇯🇵",BS TBS (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",BS TBS (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04
-#EXTINF:-1 group-title="JAPAN 🇯🇵",BS TV TOKYO (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",BS TV TOKYO (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05
-#EXTINF:-1 group-title="JAPAN 🇯🇵",BSN (YOUTUBE) (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",BSN (YOUTUBE) (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCoAQNKxgfE32ai4mOXNXvug.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",CARTOON NETWORK JAPAN (400P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",CARTOON NETWORK JAPAN (400P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs25
-#EXTINF:-1 group-title="JAPAN 🇯🇵",CGNTV JAPAN (1080P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",CGNTV JAPAN (1080P)
 https://cgntvliveweb-944.acs.wecandeo.com/ms/2850/944/index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",CHANNEL GINGA (1080P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",CHANNEL GINGA (1080P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29
-#EXTINF:-1 group-title="JAPAN 🇯🇵",CHUKYO TV NEWS (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",CHUKYO TV NEWS (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCxiRdfyH0FtFCRZTRfRsdsA.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",CNNJ (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",CNNJ (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16
-#EXTINF:-1 group-title="JAPAN 🇯🇵",DISNEY CHANNEL JAPAN (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",DISNEY CHANNEL JAPAN (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
-#EXTINF:-1 group-title="JAPAN 🇯🇵",DISNEY JUNIOR (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",DISNEY JUNIOR (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23
-#EXTINF:-1 group-title="JAPAN 🇯🇵",EISEI GEKIJO (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",EISEI GEKIJO (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22
-#EXTINF:-1 group-title="JAPAN 🇯🇵",EWTN AFRICA ASIA (720P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",EWTN AFRICA ASIA (720P)
 https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",EWTN ASIA-PACIFIC (720P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",EWTN ASIA-PACIFIC (720P) [NOT 24/7]
 https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",FAMILY GEKIJO (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",FAMILY GEKIJO (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20
-#EXTINF:-1 group-title="JAPAN 🇯🇵",FISHING VISION (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",FISHING VISION (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25
-#EXTINF:-1 group-title="JAPAN 🇯🇵",FUJI TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",FUJI TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05
-#EXTINF:-1 group-title="JAPAN 🇯🇵",FUJI TV NEXT (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",FUJI TV NEXT (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
-#EXTINF:-1 group-title="JAPAN 🇯🇵",GAKI NO TSUKAI (ENGLISH SUBS) (720P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",GAKI NO TSUKAI (ENGLISH SUBS) (720P)
 https://hamada.gaki-no-tsukai.stream/hls/test.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",GAORA SPORTS (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",GAORA SPORTS (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17
-#EXTINF:-1 group-title="JAPAN 🇯🇵",GOLF NETWORK (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",GOLF NETWORK (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03
-#EXTINF:-1 group-title="JAPAN 🇯🇵",GREEN CHANNEL (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",GREEN CHANNEL (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14
-#EXTINF:-1 group-title="JAPAN 🇯🇵",HBC HOKKAIDO NEWS 24 (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",HBC HOKKAIDO NEWS 24 (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCCTpf5c_9HDo_OSu3aX8uFQ.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",HOKKAIDO NEWS UHB (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",HOKKAIDO NEWS UHB (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCpQs_warGhUzJhBdwLfF34g.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",HOME DRAMA CHANNEL (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",HOME DRAMA CHANNEL (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05
-#EXTINF:-1 group-title="JAPAN 🇯🇵",HOME HIROSHIMA NEWS (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",HOME HIROSHIMA NEWS (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCRnFGOp_mjaCYEhMzsE2iHA.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",HTB HOKKAIDO NEWS 24 (720P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",HTB HOKKAIDO NEWS 24 (720P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCSWOnDD1KIriGmyQ7SgNA4A.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",IBC 6 BOX (YOUTUBE) (720P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",IBC 6 BOX (YOUTUBE) (720P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCMbq0m2vILQTbc0VhOcVWaQ.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",IWATE MENKOI TELEVISION (1080P) [NOT 24/
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",IWATE MENKOI TELEVISION (1080P) [NOT 24/
 https://ythls.armelin.one/channel/UCw14eNQAUDqCg-fX3Uvd07w.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",J SPORTS 1 (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",J SPORTS 1 (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
-#EXTINF:-1 group-title="JAPAN 🇯🇵",J SPORTS 2 (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",J SPORTS 2 (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19
-#EXTINF:-1 group-title="JAPAN 🇯🇵",J SPORTS 3 (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",J SPORTS 3 (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
-#EXTINF:-1 group-title="JAPAN 🇯🇵",J SPORTS 4 (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",J SPORTS 4 (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
-#EXTINF:-1 group-title="JAPAN 🇯🇵",JIDAIGEKI SENMON (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",JIDAIGEKI SENMON (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04
-#EXTINF:-1 group-title="JAPAN 🇯🇵",KANSAI TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",KANSAI TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
-#EXTINF:-1 group-title="JAPAN 🇯🇵",KAYO POPS (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",KAYO POPS (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13
-#EXTINF:-1 group-title="JAPAN 🇯🇵",KBC NEWS (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",KBC NEWS (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCS8ZQejq2CL-nZcnRWZCA5Q.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",KIDS STATION (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",KIDS STATION (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
-#EXTINF:-1 group-title="JAPAN 🇯🇵",LALA TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",LALA TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19
-#EXTINF:-1 group-title="JAPAN 🇯🇵",MBS (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",MBS (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
-#EXTINF:-1 group-title="JAPAN 🇯🇵",MBS NEWS (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",MBS NEWS (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCkKJhKO73xF1pK5h9R82ZGQ.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",MĒTELE NEWS LIVE 24 (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",MĒTELE NEWS LIVE 24 (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCWnOKASPkCBEL-_O8odMvtg.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",MONDO TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",MONDO TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21
-#EXTINF:-1 group-title="JAPAN 🇯🇵",MOVIE PLUS (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",MOVIE PLUS (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14
-#EXTINF:-1 group-title="JAPAN 🇯🇵",MUSIC JAPAN TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",MUSIC JAPAN TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NHK BS (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NHK BS (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NHK BSP4K (1080P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NHK BSP4K (1080P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NHK E (TOKYO) (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NHK E (TOKYO) (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NHK G (OSAKA) (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NHK G (OSAKA) (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NHK G (TOKYO) (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NHK G (TOKYO) (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NIHON EIGA SENMON (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NIHON EIGA SENMON (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NIIGATA NEWS NST (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NIIGATA NEWS NST (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UC8iN-WKPu820ve-4t9NxHRw.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NIPPON TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NIPPON TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NITTELE G PLUS (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NITTELE G PLUS (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NTV NEWS24 (480P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NTV NEWS24 (480P)
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",POKÉMON KIDS TV ENGLISH (1080P) [NOT 24/
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",POKÉMON KIDS TV ENGLISH (1080P) [NOT 24/
 https://ythls.armelin.one/channel/UCgbfG5HoczHIkpzxLYH-8Ww.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",POKÉMON KIDS TV JAPANESE (1080P) [NOT 24
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",POKÉMON KIDS TV JAPANESE (1080P) [NOT 24
 https://ythls.armelin.one/channel/UCH0JJtRn2syic5xxavMKQ4Q.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",QVC JAPAN (720P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",QVC JAPAN (720P)
 https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",RKB NEWS 24 (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",RKB NEWS 24 (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCgrmHAblzN-QzMMgl2oNRog.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SATV NEWS 24H (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SATV NEWS 24H (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCvF5vIejmf-H_XSluaBldfg.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SPACE SHOWER TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SPACE SHOWER TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26
-#EXTINF:-1 group-title="JAPAN 🇯🇵",STAR 1 (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",STAR 1 (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08
-#EXTINF:-1 group-title="JAPAN 🇯🇵",STAR 2 (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",STAR 2 (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs27
-#EXTINF:-1 group-title="JAPAN 🇯🇵",STAR 3 (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",STAR 3 (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs28
-#EXTINF:-1 group-title="JAPAN 🇯🇵",STV NEWS HOKKAIDO (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",STV NEWS HOKKAIDO (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCOZv-6MiXqJdLpmYtR431Ow.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",SUN TV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",SUN TV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TABI CHANNEL (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TABI CHANNEL (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TAKARAZUKA SKY STAGE (1080P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TAKARAZUKA SKY STAGE (1080P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TBS (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TBS (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TBS NEWS (720P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TBS NEWS (720P) [NOT 24/7]
 https://ythls.armelin.one/channel/UC6AG81pAkf6Lbi_1VC5NmPA.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TOEI CHANNEL (1080P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TOEI CHANNEL (1080P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TOKYO MX1 (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TOKYO MX1 (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TOKYO MX1 (720P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TOKYO MX1 (720P)
 https://mcas-eqms-mx1-live.hls.davlive.stream.ne.jp/mt/master/340f27cd590451b1e7d0034b85b5175ddaf05454/EQMS_MX1/master.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TOKYO MX2 (720P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TOKYO MX2 (720P)
 https://mcas-eqms-mx1-live.hls.davlive.stream.ne.jp/mt/master/340f27cd590451b1e7d0034b85b5175ddaf05454/EQMS_MX2/master.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TOS NEWS (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TOS NEWS (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UChx_y6aLWNkifSDUt2TVAzg.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TULIP TV (YOUTUBE) (720P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TULIP TV (YOUTUBE) (720P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCk4bgav5X0rlbGefFnPcuoQ.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TV ASAHI (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TV ASAHI (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TV OSAKA (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TV OSAKA (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TV SHIZUOKA (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TV SHIZUOKA (1080P) [NOT 24/7]
 https://ythls.armelin.one/channel/UCFIlFvYMWkPE6uDcjdro1UA.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TV TOKYO (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TV TOKYO (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TV-U YAMAGATA (YOUTUBE) (1080P) [NOT 24/
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TV-U YAMAGATA (YOUTUBE) (1080P) [NOT 24/
 https://ythls.armelin.one/channel/UCTWatTAOnFVB0vwIetZCTHw.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",WEATHERNEWS (1080P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",WEATHERNEWS (1080P)
 https://ythls.armelin.one/channel/UCNsidkYpIAQ4QaufptQBPHQ.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",WOWOW CINEMA (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",WOWOW CINEMA (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
-#EXTINF:-1 group-title="JAPAN 🇯🇵",WOWOW LIVE (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",WOWOW LIVE (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
-#EXTINF:-1 group-title="JAPAN 🇯🇵",WOWOW PRIME (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",WOWOW PRIME (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12
-#EXTINF:-1 group-title="JAPAN 🇯🇵",YTV (544P)
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",YTV (544P)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
-#EXTINF:-1 group-title="JAPAN 🇯🇵",oha4
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",oha4
 http://vthanh.utako.moe/3/index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",tv asahi
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",tv asahi
 http://vthanh.utako.moe/4/index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",TBS
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",TBS
 http://vthanh.utako.moe/5/index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",
 http://vthanh.utako.moe/6/index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",NHK BS
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",NHK BS
 http://vthanh.utako.moe/8/index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",shop
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",shop
 http://vthanh.utako.moe/9/index.m3u8
-#EXTINF:-1 group-title="JAPAN 🇯🇵",shop2
+#EXTINF:-1 group-title="日本 /JAPAN 🇯🇵",shop2
 http://vthanh.utako.moe/10/index.m3u8
 
+#EXTINF:-1 tvg-name="テレビ朝日" tvg-logo="https://i.imgur.com/5XnMfcR.png" tvg-id="JOEXDTV.jp" tvg-chno="D051" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",テレビ朝日
+https://tvasahi.mov3.co/hls/tvasahi.m3u8
+#EXTINF:-1 tvg-name="TBSテレビ" tvg-logo="https://i.imgur.com/jIZ9TlO.png" tvg-id="JORXDTV.jp" tvg-chno="D061" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",TBSテレビ
+https://tbs5.mov3.co/hls/tbs.m3u8
+#EXTINF:-1 tvg-name="テレビ東京" tvg-logo="https://i.imgur.com/U8jBxEi.png" tvg-id="JOTXDTV.jp" tvg-chno="D071" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",テレビ東京
+https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
+#EXTINF:-1 tvg-name="フジテレビ" tvg-logo="https://i.imgur.com/epJYc7P.png" tvg-id="JOCXDTV.jp" tvg-chno="D081" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",フジテレビ
+https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-name="QVC" tvg-logo="https://i.imgur.com/FznYA39.png" tvg-id="QVC.jp" tvg-chno="CS161" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",QVC
+https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+#EXTINF:-1 tvg-name="GSTV" tvg-logo="https://i.imgur.com/ECnVG5I.png" tvg-id="GSTV.jp" tvg-chno="スカパー！プレミアム527" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",GSTV
+https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
+#EXTINF:-1 tvg-name="NHK WORLD JAPAN" tvg-logo="https://i.imgur.com/Mhw1Ihk.png" tvg-id="NHKWorldJapan.jp" tvg-chno="JCOM307" tvg-country="JP"  group-title="日本 /JAPAN 🇯🇵",NHK WORLD JAPAN
+https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
 
 
 #EXTINF:-1 group-title="MAURITANIA",ARRIADIA (360P)
