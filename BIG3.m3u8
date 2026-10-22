@@ -2965,14 +2965,16 @@ https://tinyurl.com/2xvgs2x6
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://i.ibb.co/CpYZFf54/image-38.png",Ты супер !
 https://cdn-dvr.ntv.ru/Super/tracks-v1a1/rewind-240.ts.m3u8
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-id="smotrim-100-prazdnik" tvg-name="Смотрим 100% Праздник" tvg-logo="https://cdn-st2.smotrim.ru/vh/pictures/xw/753/967/0.png",Смотрим 100% Праздник
-https://stream.smotrim.ru/hls/fasttv04/playlist_3.m3u8
+
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-id="smotrim-100-fakty" tvg-name="Смотрим 100% Факты" tvg-logo="https://cdn-st2.smotrim.ru/vh/pictures/xw/690/791/5.png",Смотрим 100% Факты
-https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://stream.smotrim.ru/hls3/fasttv06/playlist_3.m3u8
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-id="smotrim-100-prazdnik" tvg-name="Смотрим 100% Праздник",СМОТРИМ 100% ПРАЗДНИК HD 
-
-
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://stream.smotrim.ru/hls3/fasttv04/playlist_3.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-name="Смотрим Честный детектив" tvg-logo="https://cdn-st2.smotrim.ru/vh/pictures/xw/456/954/5.png",Смотрим Честный детектив
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://i.ibb.co/nMsMD0Q4/image-34.png",Следствие вели...
@@ -2993,7 +2995,7 @@ http://195.64.140.147:10137/137
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈", TLC 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈", TLC 
-http://195.64.140.147:10137/137
+
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://epg.iptvx.one/picons/rutube-tv.png" tvg-id="rutube-tv", RUTUBE TV
 https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=r3f970p8Lw0BA8bZCkKxXg&e=2072182999&scheme=https
@@ -3013,6 +3015,7 @@ https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-id="svetloe-tv", Светлое ТВ
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://46.53.200.153:7777/play/svetloetv/index.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-id="narod-vsio-vidit"tvg-logo="https://cs1.ottgoods.ru/media/v2/3a1d3b24-25db-43d0-a003-61a43b2ec667", Народ Всё Видит
@@ -6336,15 +6339,11 @@ http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA24/variant.m3u8
 #EXTINF:-1 group-title="КИНО📺",КиноМеню HD
 http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8
 #EXTINF:-1 group-title="КИНО📺"tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png" ,Царь Горы
-rtmp://vkvsd69.okcdn.ru/playback/11828892871504?stkn=QaxFtWVGIo88g9cyFMIow9iC5J32EiGkXnk_6rKiPnrJEB93tLRBCL31cVjawyYr_Er3tetwVeKz&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
-#EXTINF:-1 group-title="КИНО📺"tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png",Южный Парк
-rtmp://vkvsd8.okcdn.ru/playback/8993430186980?stkn=GGhSqZR-fwCnth4Qgp6V-8FWRYYkNgobKIyP4bDf_-mgfVTkXTdS41qOtuNnVfkvBf_6a3g29ec&uid=0&sp=uid,sp&sig=vlibqm4nyu
 
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺",разные сериалы
-#EXTVLCOPT:http-user-agent=SmartTV
-https://fl1001.bozztv.com/ushba32/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺",ALPHA CINEMA
-http://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+#EXTINF:-1 group-title="КИНО📺"tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png",Южный Парк
+
+
+
 
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://vits.tv/images/tvstation/russia/1filmax.webp"group-title="КИНО📺",1FILMAX фантастика
 
@@ -6359,7 +6358,7 @@ https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=ix
 https://bl.rutube.ru/livestream/e05401be60a9cc719fa7075b6e77b86d/index.m3u8?s=wbVW8VM26OpdW5kxFYEmSQ&e=2069694293&scheme=https
 
 #EXTINF:-1 group-title="КИНО📺" tvg-logo="https://telik.live/images/4k-hits.png",4K Кино и сериалы
-http://kinowalk.hopto.org/4khits_live
+
 #EXTINF:-1 group-title="КИНО📺",Киножелезо HD
 https://bl.rutube.ru/livestream/4965b7b928c4a143d708ab424be01d37/index.m3u8?s=gMBYxSllxsSYVvLG71o4eg&e=2066519765&scheme=https
 #EXTINF:-1 group-title="КИНО📺",Киножелезо
@@ -6377,16 +6376,23 @@ https://bl.rutube.ru/livestream/dcd36c7833f9431e6e6c902515c6c3ac/index.m3u8?s=8R
 
 
 #EXTINF:-1 group-title="КИНО📺" tvg-id="smotrim-100-klassika" tvg-name="Смотрим 100% Классика" tvg-logo="https://cdn-st2.smotrim.ru/vh/pictures/xw/727/741/8.png",Смотрим 100% Классика
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
 #EXTINF:-1 group-title="КИНО📺" tvg-id="smotrim-100-lubov" tvg-name="Смотрим 100% Любовь" tvg-logo="https://cdn-st2.smotrim.ru/vh/pictures/hd/681/434/5.png",Смотрим 100% Любовь
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8
 #EXTINF:-1 group-title="КИНО📺" tvg-id="smotrim-100-muzhskoe" tvg-name="Смотрим 100% Мужское" tvg-logo="https://cdn-st2.smotrim.ru/vh/pictures/xw/753/954/1.png",Смотрим 100% Мужское
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="",Смотрим ТВ 1:Честный детектив
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v3a1/mono.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://i.ibb.co/4nV26ShC/image-4.png"group-title="КИНО📺"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="",Смотрим Кино и сериалы
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="",Смотрим ТВ 1:Честный детектив
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="КИНО📺" ,Fresh Adventure
@@ -8274,7 +8280,7 @@ https://cityeden.catcast.tv/content/47400/index.m3u8
 https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8
 
 
-#EXTINF:-1 group-title="МУЗЫКА🎶",Mezzo_ (1080p)
+#EXTINF:-1 group-title="МУЗЫКА🎶",Mezzo
 https://live-3.otcnet.ru/Mezzo/index.m3u8
 #EXTINF:-1 group-title="МУЗЫКА🎶",Mezzo
 https://s70378.cdn.ngenix.net/mezzo/1/index.m3u8
@@ -8287,7 +8293,7 @@ https://s70378.cdn.ngenix.net/mezzo/1/index.m3u8
 http://stream-msk-12.ott.tricolor.tv/dtv/id365_MSKSG-PVR-1--Mezzo/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1MjA0MDkwNTk0OTM0NSIsImV4cCI6MTc5MjMxNTAxNywiaHdpZCI6ImYxY2I2OGZiZDVjMzI5NTA3ZGQ1ZjE2M2MzMjlkMjYyMDNhYmViZTc0M2YyOTc4ZmYwZDM2ZmRlMmJhMjE0ZGEiLCJsYXN0X3JlcV9kYXRlIjoxNzkxNzEwMjE3LCJzZXNzaW9uX2lkIjoiNWIwODZjYmRhODcwYTk2NjMzMTg1MDkxZThhYjcyOTAiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.t-r9kPNczeDnBs-Mdje_ilLt1qDsPuYxohzL6SjeM0s
 
 
-#EXTINF:-1 group-title="МУЗЫКА🎶",Mezzo_Live_ (1080p)
+#EXTINF:-1 group-title="МУЗЫКА🎶",Mezzo_Live
 http://stream.mcquack.net/276/index.m3u8
 
 #EXTINF:-1 group-title="МУЗЫКА🎶",Mezzo Live
@@ -8356,20 +8362,28 @@ http://media.boni-records.com/index.m3u8
 
 
 #EXTINF:-1 group-title="МУЗЫКА🎶" tvg-id="vf-koncerty",VF Концерты
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://tinyurl.com/2538ofxs
 #EXTINF:-1 group-title="МУЗЫКА🎶",VF Metal
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://tinyurl.com/2cykcka8
 #EXTINF:-1 group-title="МУЗЫКА🎶",VF Michael Jackson
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://tinyurl.com/2774n49t
 #EXTINF:-1 group-title="МУЗЫКА🎶",VF Modern Talking
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://tinyurl.com/29neufow
 #EXTINF:-1 group-title="МУЗЫКА🎶",VF Music
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://tinyurl.com/22l7vlq7
 #EXTINF:-1 group-title="МУЗЫКА🎶",VF Rap
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://tinyurl.com/2d4ko2kw
 #EXTINF:-1 group-title="МУЗЫКА🎶",VF Rock
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://tinyurl.com/27o9j5a9
 #EXTINF:-1 group-title="МУЗЫКА🎶",VF Русский рок
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://tinyurl.com/25jb8bsy
 
 
@@ -10980,7 +10994,9 @@ https://ms2.mx-cd.net/tv/226-1855782/XITE_NL.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="ДЕТСКИЕ 🐸",15+ Animation
 
-
+#EXTINF:-1 group-title="ДЕТСКИЕ 🐸"tvg-logo="https://i.ibb.co/4nV26ShC/image-4.png" tvg-id="no_epg_cinema",Смотрим Детское
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://stream.smotrim.ru/hls3/fasttv05/playlist_3.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" group-title="ДЕТСКИЕ 🐸",Мульт Развивайка
 rtmp://vkvsd163.okcdn.ru/playback/9617415285537?stkn=7rG8jAJ_-nsgBzwhMK0YMXnxU1lCKkv9ovPNX2TNniYZq7NsMZGTGN8xMQH1FHtYphA4-vhgtOs&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
@@ -31283,430 +31299,480 @@ https://live.apollon.tv/Apollon-WEB/video.m3u8?token=tnt3u76re30d2
 #EXTINF:-1 group-title="ALBANIA 🇦🇱",TV 7 Albania
 http://media.az-mediaserver.com:1935/7064/7064/playlist.m3u8
 
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",Homes Under The Hammer (VPN)
-https://all3media-homes-under-the-hammer-1-dk.samsung.wurl.tv/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",People Are Awesome
-https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",GB News
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", DENNIS AND GNASHER (GB)
-http://beanostudios-dennis-and-gnasher-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", COPS (GB)
-https://langleyproductions-cops-2-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BRAT TV (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00350-bratstudio-brattv-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BABY SHARK TV (GB)
-https://newidco-babysharktv-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN BRITISH FILMS (GB)
-https://rakuten-british-films-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HOMEFUL (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01446-blueantmediacan-homefulworldwide-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HOMES UNDER THE HAMMER (GB)
-https://all3media-homes-under-the-hammer-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HNC FREE (UK)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/hncAAAAAA-hncfree-lg-uk/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HAUNT TV (UK)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-hanuttvuk-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", INFAST (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-lifestyle-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", LOVE PETS (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01576-blueskyeenterta-lovepetsemea-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", LOVE WINE (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovewineusuk-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", LOVE MAGAZINE (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovemagazineuk-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN THRILLER (GB)
-https://rakuten-thriller-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN GUARDIAN (GB)
-https://rakuten-guardian-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN FAMILY (GB)
-https://rakuten-family-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", POP KIDS (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", POP FLIX (GB)
-https://signatureentertainment-popflix-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", PEOPLE ARE AWESOME INTERNATIONAL (GB)
-https://jukin-peopleareawesome-international-4-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN ROMANCE (GB)
-https://rakuten-romance-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", REAL WILD (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN REAL SERIES (GB)
-https://rakuten-realseries-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", REAL LIFE (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-reallife-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN TOP FREE (GB)
-https://rakuten-topfree-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", REAL CRIME (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realcrimealpha-lggb/playlist.m3u
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", WIPEOUT XTRA (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-wipeoutxtra-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", UNBEATEN (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00721-inverleigh-unbeatengb-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", TIMELINE (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timeline-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", THE PET COLLECTIVE (GB)
-https://jukin-thepetcollective-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", THE BIGGEST LOSER (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-biggestlooser-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", SUPER ANIME (GB)
-http://beanostudios-super-anime-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", SPARKLE MOVIES (GB)
-https://candlelightmedia-sparklemovies-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MTRSPT 1 ALT (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MECH PLUS (GB)
-https://mechtvltd-mechplus-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", GUSTO TV (GB)
-https://gustotv-gustotv-2-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", STRONG MANS CHAMPION LEAGUE (GB)
-https://rightsboosterltd-scl-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", TRAVEL XP (GB)
-https://travelxp-travelxp-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", WATCHMOJO (GB)
-https://watchmojo-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", AFRICA NEWS (GB)
-https://rakuten-africanews-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ARTFLIX (GB)
-https://amogonetworx-artflix-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", AUTENTIC HISTORY (GB)
-https://autentic-autentichistory-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", AUTENTIC TRAVEL (GB)
-https://autentic-autentictravel-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BEANO TV (GB)
-https://beanostudios-beanotv-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BIGTJME (GB)
-https://amogonetworx-bigtjme-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", EURONEWS VIA RAKUTEN (GB)
-https://rakuten-euronews-9-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", FASHION TV (GB)
-https://fashiontv-fashiontv-5-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", FUEL TV (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaen-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", GREAT BRITISH MENU (GB)
-https://all3media-great-british-menu-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", GRJNGO (GB)
-https://amogonetworx-grjngo-3-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", SO...REAL (GB)
-https://all3media-soreal-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", THE BOAT SHOW (GB)
-https://vitor-theboatshow-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", WONDER (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wonder-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", WEDO BIG DOCS (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-wedobigdocs-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", WATERBEAR NETWORK (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbear-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", WEATHERSPY (GB)
-https://jukin-weatherspy-4-gb.lg.wurl.tv/playlist.m3u8url.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", GO USA (GB)
-https://brandusa-gousa-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", FUSE BEAT (GB)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00375-fusemedia-fusebeatuk-lggb/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", FILMZIE (GB)
-https://filmzie-filmzie-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", FILMSTREAM (GB)
-https://spi-filmstream-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", FAIL ARMY INTERNATIONAL (GB)
-https://jukin-failarmy-international-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ADVENTURE EARTH (GB)
-https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MOCONOMY (GB)
-https://amogonetworx-moconomy-2-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BLOOMBERG TV (GB)
-https://bloomberg-bloombergtv-1-gb.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BLOOMBERG ORIGINALS (GB)
-https://bloomberg-quicktake-4-gb.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",BBC Top Gear (720p)
-https://lnc-bbc-top-gear.tubi.video/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",BBC Earth (720p)
-https://lnc-bbc-earth.tubi.video/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",BBC 1
-http://185.189.225.200:8085/BBC1/index.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM" tvg-logo="https://photos.live-tv-channels.org/tv-logo/cafe-trade-tv-7769-w700.webp",Cafe Trade TV
-https://cafetradehls.wns.live/hls/stream.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM" tvg-logo="https://photos.live-tv-channels.org/tv-logo/hala-london-tv-6632-w700.webp", HALA LONDON (1080P)
-https://halalondon-live.ercdn.net/halalondon/halalondon_1080p.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM" tvg-logo="https://photos.live-tv-channels.org/tv-logo/yarn-lane-tv-1344-w700.webp",Yarn Lane TV
-https://lo2-1.gemporia.com/abrsewingstreetukgfx/smil:livestream.smil/chunklist_w917404045_b3048000.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", JOHNNY CARSON TV
-https://johnnycarson-zype.amagi.tv/playlistR288p.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MAVERICK BLACK CINRMA
-https://bad6f547d5364da0b2fe3080c5a48068.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_MaverickBlackCinema/playlist.m3u8?ads.wurl_channel=527&amp;ads.wurl_name=MaverickBlackCinema&amp;ads.us_privacy=1---&amp;ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.targetopt=0&amp;ads.plex_token=Tog8X6wK6iweuzGFsz6p&amp;ads.plex_id=5ef4e1b40d9ad000423c4430&amp;ads.ua=okhttp%2F4.9.0&amp;ads.app_bundle=com.plexapp.android&amp;ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&amp;ads.gdpr=0&amp;ads.consent=0&amp;ads.device_type=handset&amp;ads.device_id_type=
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", UK | AKAAL TV
-http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", 360 TV SD
-https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", GLEWED TV
-https://e54c4fcc08f14de7bc1094ca25cb9d29.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_GlewedTV/playlist.m3u8?ads.wurl_channel=495&amp;ads.wurl_name=GlewedTV&amp;ads.us_privacy=1---&amp;ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.targetopt=0&amp;ads.plex_token=AXowwV4PZ7mDzhmMsHmH&amp;ads.plex_id=5eea605474085f0040ddc76d&amp;ads.ua=okhttp%2F4.9.0&amp;ads.app_bundle=com.plexapp.android&amp;ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&amp;ads.gdpr=0&amp;ads.consent=0&amp;ads.device_type=handset&amp;ads.device_id_type=
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", LOVEWORLD TV (1080P) [NOT 24/7]
-https://cdn.lwuk.live/live/smil:lwukweb.smil/HasBahCa.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM" tvg-id="Charge.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/fuw0hHE.png",CHARGE!
-https://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", WILD LIFE
-https://d1vp12yk4i8ou5.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", KIDS
-https://72c5b87587c545558c3170ab55de2915.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_Tankee/playlist.m3u8?ads.wurl_channel=503&amp;ads.wurl_name=Tankee&amp;ads.us_privacy=1---&amp;ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.targetopt=0&amp;ads.plex_token=Tog8X6wK6iweuzGFsz6p&amp;ads.plex_id=5efe1de5e0b3f5003f5d9f7f&amp;ads.ua=okhttp%2F4.9.0&amp;ads.app_bundle=com.plexapp.android&amp;ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&amp;ads.gdpr=0&amp;ads.consent=0&amp;ads.device_type=handset&amp;ads.device_id_type=
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", KIDS
-https://d34enhfsgjw5ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LEGO2-prod/mhls?appId=2&amp;feedId=1120-v56&amp;auth-token=1213111&amp;version=sv7.0&amp;deviceId=SDF543&amp;deviceFwVer=4.99?ads.device_did=%7BPSID%7D&amp;ads.device_dnt=%7BTARGETOPT%7D&amp;ads.us_privacy=1YNY&amp;ads.app_domain=%7BAPP_DOMAIN%7D&amp;ads.app_name=%7BAPP_NAME%7D&amp;coppa=1
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", 360 [HD]
-https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HORSE &AMP; COUNTRY TV (1080P)
-https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", CLASSIC MOVE
-https://d1h1d6qoy9vnra.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Freebie-Plex/187.m3u8?ads.plex_token=Tog8X6wK6iweuzGFsz6p&amp;ads.channel_id=604bf68f499957002d574f45&amp;ads.device_id=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.dnt=0
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", US WEEKLY TV
-https://5e075c7a96014ebb9326fe748ea748ce.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_USWeeklyTV/playlist.m3u8?ads.wurl_channel=836&amp;ads.wurl_name=USWeeklyTV&amp;ads.coppa=0&amp;ads.us_privacy=1---&amp;ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.targetopt=0&amp;ads.plex_token=AXowwV4PZ7mDzhmMsHmH&amp;ads.plex_id=60a9d105d162b9002d05a60e&amp;ads.ua=okhttp%2F4.9.0&amp;ads.app_bundle=com.plexapp.android&amp;ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&amp;ads.gdpr=0&amp;ads.consent=0&amp;ads.device_type=handset&amp;ads.device_id_type=
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MOVIE SPHERE [PLUTO]
-https://moviesphereuk-samsunguk.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", UK | KANSHI TV
-http://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ACC DIGITAL NETWORK
-https://cda7fd8376774e648dbcc6136f7b42a5.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_ACCDigitalNetwork/playlist.m3u8?ads.wurl_channel=599&amp;ads.wurl_name=ACCDigitalNetwork&amp;ads.us_privacy=1---&amp;ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.targetopt=0&amp;ads.plex_token=Tog8X6wK6iweuzGFsz6p&amp;ads.plex_id=5f8ee3727c75fa002d9e47c1&amp;ads.ua=okhttp%2F4.9.0&amp;ads.app_bundle=com.plexapp.android&amp;ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&amp;ads.gdpr=0&amp;ads.consent=0&amp;ads.device_type=handset&amp;ads.device_id_type=
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", FILMRISE FREE MOVIES ON REDBOX
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefreemovies/CDN/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", SHELANU TV (720P)
-https://1247634592.rsc.cdn77.org/1247634592/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", IQRA TV (576P)
-https://ap02.iqplay.tv:8082/iqb8002/iq6a7k/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", TIMELINE [PLUTO]
-https://lds-timeline-samsungau.amagi.tv/playlist720-p.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", SKY NEWS ARABIA
-https://stream.skynewsarabia.com/hls/sna_720.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", JEWELERY MAKER (720P)
-https://lo2-1.gemporia.com/abrjewellerymaker/smil:livestream.smil/HasBahCa.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", UNSOLVED MYSTERIES
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxunsolvedmysteries/CDN/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", THE BIG FLIPPING BREAK
-https://133a0f79750743b7bd41950eaec76dc1.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_MoreU/playlist.m3u8?ads.wurl_channel=881&amp;ads.wurl_name=MoreU&amp;ads.coppa=0&amp;ads.us_privacy=1---&amp;ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.targetopt=0&amp;ads.plex_token=vB1fQVteisRvSpyJtSgH&amp;ads.plex_id=6112a9139894c8002c6cb87f&amp;ads.ua=okhttp%2F4.9.0&amp;ads.app_bundle=com.plexapp.android&amp;ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&amp;ads.gdpr=0&amp;ads.consent=0&amp;ads.device_type=handset&amp;ads.device_id_type=
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", IQRA BANGLA (720P)
-https://cdn5.iqsat.net/iqb/f0c1abab1c44d5f01879991c979a6821.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", REDBOX : POCKETWATCH
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxpocketwatch/CDN/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", GEMS TV
-http://57d6b85685bb8.streamlock.net:1935/abrgemporiaukgfx/livestream_360p/index.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", AHLULBAYT TV (1080P) [NOT 24/7]
-https://5f3e23ac71915.streamlock.net:4434/live/livestream1.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", NHK WORLD
-https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_1M.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", CRAFT STORE TV (720P)
-https://live-hochanda.simplestreamcdn.com/hochanda/live.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", EMAN CHANNEL
-https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", PRANK VODEO SHOWDOWN
-https://linear-12.frequency.stream/dist/plex/12/hls/master/playlist.m3u8?ads.plex_token=Tog8X6wK6iweuzGFsz6p&amp;ads.plex_id=5ef11486d33ab9004048a1cd&amp;ads.device_id=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.dnt=0&amp;ads.us_privacy=1---
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", IRAN INTERNATIONAL (1080P)
-https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", THE CAROL BURNETT SHOW
-https://thecarolburnettshow-zype.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", IQRA BANGLA (576P)
-https://ap02.iqplay.tv:8082/iqb8002/iq53la/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", CHANNEL S (576P) [NOT 24/7]
-https://ap02.iqplay.tv:8082/iqb8002/ch4n3ls/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", IQRA TV (576P)
-https://cdn5.iqsat.net/iqb/b5b9977ca31beabec903ba7b34e1c198.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ELECTRIC NOW
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=70&amp;live=1&amp;app_bundle=com.plexapp.android&amp;did=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;app_domain=app.plex.tv&amp;app_name=plex&amp;h=&amp;w=&amp;content_title=Tog8X6wK6iweuzGFsz6p&amp;content_series=5f170d61b898490041b49360&amp;custom4=plex&amp;gdpr=0&amp;device_make=&amp;device_model=&amp;coppa=0&amp;us_privacy=1---&amp;custom_6=Tog8X6wK6iweuzGFsz6p&amp;custom_7=5f170d61b898490041b49360
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", REDBOX : NITRO CIRCUS
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxnitrocircus/CDN/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", QVC
-https://d1txbbj1u9asam.cloudfront.net/live/qvcuk_main_clean/bitrate1.isml/3/prog_index.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", A*LIST LIVING
-https://9215cc5c363c4ed297905b3ca9195080.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_TheDesignNetwork-2/playlist.m3u8?ads.wurl_channel=553&amp;ads.wurl_name=TheDesignNetwork&amp;ads.coppa=0&amp;ads.us_privacy=1---&amp;ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.targetopt=0&amp;ads.plex_token=zhVJhkYiviQfYuzKS--y&amp;ads.plex_id=5f0641d3e8ffda004033b16e&amp;ads.ua=okhttp%2F4.9.0&amp;ads.app_bundle=com.plexapp.android&amp;ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&amp;ads.gdpr=0&amp;ads.consent=0&amp;ads.device_type=handset&amp;ads.device_id_type=
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", AHLULBAYT TV FHD
-http://109.123.126.14:1935/live/livestream1.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", AKAAL TV (396P)
-https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ALBUK TV FHD
-http://albuk.dyndns.tv:1935/albuk/albuk.stream/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ANAND TV HD
-https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BEANO TV HD
-https://a7b60a6853d843dd9105acfa8d6e74c7.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_BeanoTV/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HADI TV AZERI AND RUSSIAN HD
-https://live.ishiacloud.com/haditv.co.uk/haditv3.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HADI TV ENGLISH AND URDU HD
-https://live.ishiacloud.com/haditv.co.uk/haditv1.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HADI TV FARSI HD
-https://live.ishiacloud.com/haditv.co.uk/haditv4.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HADI TV FRENCH HD
-https://live.ishiacloud.com/haditv.co.uk/haditv8.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HADI TV HAUSA HD
-https://live.ishiacloud.com/haditv.co.uk/haditv5.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HADI TV INDONESIAN AND THAI HD
-https://live.ishiacloud.com/haditv.co.uk/haditv2.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HADI TV TURKISH AND KURDISH HD
-https://live.ishiacloud.com/haditv.co.uk/haditv7.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", JEWELERY MAKER FHD
-https://lo2-1.gemporia.com/abrjewellerymaker/smil:livestream.smil/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", KANSHI TV HD
-https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", KERRANG (576P)
-https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,kerrang-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/kerrang/
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MTA1 WORLD HD
-https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MTA2 EUROPE HD
-https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MTA3 AL-ARABIA FHD
-https://chlivemta1.akamaized.net/hls/live/2010556/mta3alarabia/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MTA4 AFRICA FHD
-https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica1/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MTA5 AFRICA FHD
-https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MTA6 ASIA FHD
-https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MTA7 ASIA FHD
-https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MTA8 AMERICA FHD
-https://chlivemta.akamaized.net/hls/live/2016718/mta8/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", PAC12 INSIDER HD
-https://pac12-sportstribal.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", PBS AMERICA HD
-https://pbs-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", QELLO CONCERTS BY STINGRAY FHD
-https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-samsungtvplus-stitched/samsungtvplus_uk_stingrayqello_001.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", QVC UK (540P)
-http://live.qvcuk.simplestreamcdn.com/live/qvcuk_main_clean/bitrate1.isml/live.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", QVC UK BEAUTY (540P)
-http://live.qvcuk.simplestreamcdn.com/live/qvcuk_beauty_clean/bitrate1.isml/live.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", QVC UK STYLE (540P)
-http://live.qvcuk.simplestreamcdn.com/live/qvcuk_style_clean/bitrate1.isml/live.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", REAL STORIES HD
-https://realstories-samsung-uk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", TAKBEER TV FHD
-https://ap02.iqplay.tv:8082/iqb8002/t5kb86/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", TELETUBBIES HD
-https://8f720e1353ce43b8babcd780fe178755.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_WildBrainPresentsTeletubbies/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", THE BOX UK (576P)
-https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,thebox-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/thebox/
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", TIME LINE HD
-https://timeline-samsung-uk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", TJC FHD
-https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/index.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", V2BEAT HD
-https://de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", 4MUSIC [GEO-BLOCKED]
-https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?spotxc1=195996&spotxc2=190878&yo.up=https://boxtv.secure.footprint.net/boxhits/
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", AAJ TAK (404P)
-https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", AFROBEATS (1080P)
+
+
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", 5 Cops
+https://jmp2.uk/plu-5d2c571faeb3e2738ae27933.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Aathavan TV (720p)
+https://yuppmumfta1.vgcdn.net/211125/athvantv/manifest.mpd
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Adventure Earth (1080p)
+https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",Afrobeat TV Entertainment (1080p) 
 https://stream.ecable.tv/afrobeats/index.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ALHIWAR TV (1080P) [NOT 24/7]
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",Ahlulbayt TV (1080p)
+https://cd198.anystream.uk:8082/hls/abtv3ng/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Akaal Channel (396p) [Geo-blocked]
+https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Al Hiwar TV (1080p) [Not 24/7]
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ALMAGHARIBIA TV (1080P)
-https://ythls.onrender.com/channel/UCwKS2U-DwjPZZvM6mSXPKgA.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ANGEL TV EUROPE (720P)
-https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angeleurope_all/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ARISE NEWS (576P)
-https://liveedge-arisenews.visioncdn.com/live-hls/arisenews/arisenews/arisenews_web/master.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BEANO TV (720P)
-https://beanostudios-beanotv-1-gb.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BOX HITS (576P)
-https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/boxhits/
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BRIT ASIA LIVE (US EASTERN) (360P) [NOT
-https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0500/c.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", BRITISH MUSLIM TV (576P) [NOT 24/7]
-https://api.visionip.tv/live/ASHTTP/visiontvuk-international-britishmuslimtv-hsslive-25f-16x9-MB/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", CNN INTERNATIONAL EUROPE (720P)
-https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", COMEDY CHANNEL (1080P)
-https://uksono1-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", CRUISE1ST TV (1080P) [GEO-BLOCKED]
-https://ythls.onrender.com/channel/UC9r76Tzp5HxeQG7SqZwV3OA.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", DEEN TV (576P) [NOT 24/7]
-https://ap02.iqplay.tv:8082/iqb8002/d33ntv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", DISCOVERFILM
-https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", EDGESPORT (1080P)
-https://edgesport-rakuten-samsung.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", FASHION TV (ENGLAND) (1080P) [NOT 24/7]
-https://fashiontv-fashiontv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", FILMSTREAM
-https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", GARSHOM TV (360P) [NOT 24/7]
-https://og2qd3aal7an-hls-live.5centscdn.com/garshomtv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", GB NEWS
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8
-
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", HORSE AND COUNTRY FREE
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00810-horsecountrytvl-hncfreenz-samsungnz/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ISLAM CHANNEL (576P) [NOT 24/7]
-https://live.islamchannel.tv/live7/islamtv_english/bitrate1.isml/live.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", ISLAM CHANNEL URDU
-https://live-islamtv-urdu.simplestreamcdn.com/live7/islamtv_urdu/bitrate1.isml/live.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", KALSAN TV (576P)
-https://ap02.iqplay.tv:8082/iqb8002/ka1s0n/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", KISS TV [GEO-BLOCKED]
-https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,kiss-alldev.m3u8?spotxc1=195996&spotxc2=190878&yo.up=https://boxtv.secure.footprint.net/kiss/
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", KTO (404P) [NOT 24/7]
-https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", LATEST TV [NOT 24/7]
-https://5a0e89631aa14.streamlock.net/LatestTV/LatestTV/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", LOVEWORLD TV (1080P) [NOT 24/7]
-https://cdn.lwuk.live/live/smil:lwukweb.smil/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MAGNA VISION (1080P)
-https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MOONBUG KIDS (1080P)
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Alb UK TV (1080p) [Not 24/7]
+http://albuk.dyndns.tv:1935/albuk/albuk.stream/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Anand TV (United Kingdom) (720p) [Not 24/7]
+https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Andromeda UK
+https://jmp2.uk/plu-5e8db96bccae160007c71eec.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Anthony Bourdain: Parts Unknown
+https://jmp2.uk/plu-69173ce8abd4703b27f71d44.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", ATN Bangla UK (576p)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Auction Hunters (Germany) GB
+https://jmp2.uk/plu-62ac50e92c48f900071444c9.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Autentic History (1080p)
+https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Autentic Travel (1080p)
+https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Avatar (Germany)
+https://jmp2.uk/plu-656df599c0fc8800089c75ab.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", BBC News Pashto (720p)
+https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_afghan_tv/pc_hd_abr_v2.mpd
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Beyond Belief: Fact or Fiction
+https://jmp2.uk/plu-611f85396abc84000738417b.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Brit Asia TV (1080p)
+https://hls.autopo.st/hls/britasiatv/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",Cagney & Lacey
+https://jmp2.uk/plu-6960c5a906d76f50db2816dc.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Canaf54 TV
+https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",Channel S (United Kingdom) (576p)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Clubbing TV UK (720p)
+https://a-cdn.klowdtv.com/live3/clubbingtv_720p/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", CNBC UK (1080p)
+https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", CSI: Crime Scene Investigation
+https://jmp2.uk/plu-6304f8d5ffb61000071ab478.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", DAZN Combat (684p)
+https://jmp2.uk/plu-64d626ac9b414d000820e2fc.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Deadly Women (1080p)
+https://d1mgh147xpmgs8.cloudfront.net/DeadlyWomen_GB.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Deen TV (576p)
+https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Der TV
+https://stream.berosat.live/hls/der-tv/der-tv.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Dog the Bounty Hunter UK (1080p)
+https://amg00276-amg00276c11-rakuten-uk-3446.playouts.now.amagi.tv/playlist/amg00276-aetelevisionnetworksfast-dogthebountyhunterall-rakutenuk/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Duck Dynasty (1080p)
+https://amg00276-amg00276c2-rakuten-uk-3449.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Dunya News UK (720p) [Not 24/7]
+https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Eman Channel (576p)
+https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", English Club TV (576i)
+https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", ENT Channel (720p)
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", ENT Family (720p)
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", FailArmy UK (720p)
+https://failarmy-international-gb.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Faith UK (1080p)
+https://faithnow-hls.secdn.net/faithnow-c-channel/play/FaithUK.smil/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧"Faith World TV (1080p)
+https://faithworldtv.abs.tv/1826926230/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", FBI Files
+https://jmp2.uk/plu-62bdaa32a1b2fd00076693e8.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", FIFA+ (720p)
+https://jmp2.uk/plu-660c29b5aec9680008f5b4a4.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", FIFA+ Women (720p)
+https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Gems TV (720p)
+https://lo3.gemporia.com/abrgemporiaukgfx/smil:livestream.smil/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Geordie Shore (Germany) GB
+https://jmp2.uk/plu-65c4960d11ced7000812c433.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Get.factual (720p)
+https://d1nhni5l2n8hjt.cloudfront.net/gf.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Ghost Dimension
+https://jmp2.uk/plu-619e1bb3e9af5a0007f235ad.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", GOD TV (576p)
+https://fl-dvr.iptvcdn.tv/chid_1/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Hala London (1080p)
+https://halalondon-live.ercdn.net/halalondon/halalondon.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Hellenic TV (720p) [Not 24/7]
+https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Highway to Heaven
+https://jmp2.uk/plu-68bff9a63efb41cd97562e46.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",Hobby Maker (720p)
+https://lo3.gemporia.com/abrhobbymakerukgfx/smil:livestreamFullHD.smil/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Homes Under Hammer (720p)
+https://all3media-homes-under-the-hammer-1-au.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Homicide Hunter
+https://jmp2.uk/plu-619e21b213ef6b0007d8c17a.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Horse & Country TV (1080p)
+https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",IBC Bakthi (1080p)
+https://ibc.massstream.net/IBC2/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", IBC Tamil (1080p)
+https://ibc.massstream.net/IBC/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",Inside Crime (1080p)
+https://aenetworks-insidecrime-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Iqra Bangla (576p)
+https://tvsen3.aynaott.com/EuEy5mBW/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Iran International (1080p)
+https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Judge Judy (Germany)
+https://jmp2.uk/plu-622f498d119b4c000719c0b7.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Kanal Jadid
+https://kjhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Kanshi TV (720p) [Not 24/7]
+https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Latest TV (480p)
+https://5a0e89631aa14.streamlock.net/live/LatestTelevision/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Magnavision TV (720p)
+https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Married with Children
+https://jmp2.uk/plu-66bb3212fe11e5000883ea6b.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Miracle TV (480p)
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_030/Stream/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Moonbug Kids (1080p)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", MOONBUG KIDS (720P)
-https://mumbai-edge.smartplaytv.in/Moonbug/index.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", N TV (US EASTERN) (720P) [NOT 24/7]
-https://a.jsrdn.com/broadcast/22680_3BR3zocwi9/-0500/c.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", NBC NEWS NOW (1080P)
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumo-nbcnewsnow/CDN/master.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", NOOR TV (480P) [NOT 24/7]
-http://45.76.186.114:8080/hls/noortv.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", NOW 70'S
-https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", NOW 80'S
-https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", NOW 90'S
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", More TV Crime
+https://jmp2.uk/plu-639b558c73423d00071ce624.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", More TV Sci-fi
+https://jmp2.uk/plu-645e00d5d3fdde000829463a.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MovieSphere UK (1080p
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MTA1 World (720p)
+https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MTA2 Europe (720p)
+https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MTA3 Al-Arabia (1080p)
+https://chlivemta1.akamaized.net/hls/live/2010556/mta3alarabia/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MTA4 Africa (1080p)
+https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica1/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MTA5 Africa (1080p)
+https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MTA6 Asia (1080p)
+https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MTA7 Asia (1080p)
+https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MTA8 America (1080p)
+https://chlivemta.akamaized.net/hls/live/2016718/mta8/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MUTV (720p)
+https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Mystery TV (1080p)
+https://aenetworks-mysterytv-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",MyTime Movie Network (United Kingdom) (1080p)
+https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", NBC News NOW (1080p)
+https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Nickelodeon (United Kingdom) (576p)
+http://tvsen7.aynascope.net/nicklodean/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Noor TV (United Kingdom) (720p)
+https://sscsott.com/srt/noortvuk/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Nosey UK
+https://jmp2.uk/plu-5dc2ba1a9c91420009db4858.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", NOW Rock (1080p)
 https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", POP MAX (576P)
-https://live-sonybebanjo.simplestreamcdn.com/live8/popmax/bitrate1.isml/live.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", QVC UK +1 (540P)
-https://live-qvcuk.simplestreamcdn.com/hera/remote/qvcuk_primary_sdi1/live.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", QVC UK EXTRA (540P)
-https://live-qvcuk.simplestreamcdn.com/live/qvcuk_extra_clean/bitrate1.isml/live.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN ACTION MOVIES UK (720P)
-https://rakuten-actionmovies-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN COMEDY MOVIES UK (720P)
-https://rakuten-comedymovies-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN FAMILY UK (720P)
-https://rakuten-family-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN SHOWS UK (720P)
-https://rakuten-tvshows-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN SPOTLIGHT UK (720P)
-https://rakuten-spotlight-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", RAKUTEN TOP FREE UK (720P)
-https://rakuten-topfree-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", S4C (1080P) [GEO-BLOCKED]
-https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", SPORTYSTUFF TV (1080P)
-https://ayozat-live.secure2.footprint.net/egress/bhandler/ayozat/sportystufftv/manifest.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", TELETUBBIES (720P)
-https://dhx-teletubbies-1-gb.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", THE GUARDIAN (720P)
-https://0d0239e437124ddcb8090d815caf4013.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-gb_TheGuardianChannel/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", TLNOVELAS EUROPA (720P)
-https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", V2BEAT (720P) [NOT 24/7]
-https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", VOXAFRICA
-http://188.227.164.31/tsstreamer/VoxAfrica_SD.ts
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", WEATHERSPY EUROPE (720P)
-https://jukin-weatherspy-2-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM", WONDER
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",Moonbug Kids
-https://moonbug-rokuus.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",Museum TV English
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtven-xiaomi/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",Zee One
-https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8
-#EXTINF:-1 group-title="Великобритания 🇬🇧 UNITED KINGDOM",TBN UK
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", NTD TV English UK (1080p)
+https://ntd02.akamaized.net/NTD-UK/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", On The Case
+https://jmp2.uk/plu-62cd971cec90c20007081050.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Panjab TV (576p)
+https://panjabtv.akamaized.net/panjabtv/panjabtvhlsout/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Paranormal State
+https://jmp2.uk/plu-60804d85858bd00007c5d591.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Alien Invasion (Germany)
+https://jmp2.uk/plu-6462190b7cb4b1000862dd60.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV American True Crime
+https://jmp2.uk/plu-692ebafce72f03e07e7df985.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Animals GB
+https://jmp2.uk/plu-5ddf8ea0d000120009bcad83.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Animation
+https://jmp2.uk/plu-612f761008a9e50007984ba0.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Britain at War
+https://jmp2.uk/plu-625e8cb585ef320007806caf.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Classic TV
+https://jmp2.uk/plu-5d134a74ca91eedee1630faa.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Conspiracy
+https://jmp2.uk/plu-5d4ae94ef1a1bbb350ca41bb.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Crime GB
+https://jmp2.uk/plu-5d767790d0438aceb41d03ae.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Cult Films (Germany)
+https://jmp2.uk/plu-5c5c31f2f21b553c1f673fb0.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Family Movie Club
+https://jmp2.uk/plu-5dc3fc6b9133f500099c7d98.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Fantasy & Horror
+https://jmp2.uk/plu-685041d936c9361b1921c26c.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Food GB
+https://jmp2.uk/plu-5ddf930548ff9b00090d5686.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Investigation
+https://jmp2.uk/plu-63808dc806aa4700075f319a.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",Pluto TV Movies GB
+https://jmp2.uk/plu-5ad8d3a31b95267e225e4e09.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV PetrolHeads
+https://jmp2.uk/plu-65a7b0814a10d800085ff2df.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Retro Toons GB
+https://jmp2.uk/plu-5c5c2b9d8002db3c3e0b1c6d.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Sci-fi Series
+https://jmp2.uk/plu-619247c34a270700077c8415.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Sherlock
+https://jmp2.uk/plu-5dc2c00abfed110009d97243.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Sitcoms GB
+https://jmp2.uk/plu-62f53dc6ee9a0400071dc22b.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Space (Germany) GB
+https://jmp2.uk/plu-5dbc2f98777f2e0009934ae7.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Tough Jobs
+https://jmp2.uk/plu-600acaff5f2d6e000745effb.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pluto TV Westerns (Germany)
+https://jmp2.uk/plu-5d4bdb635ce813b38639e6a3.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Pop (1080p)
+https://amg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeentert-popkids-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", QVC (United Kingdom) (540p)
+https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", QVC Beauty (540p)
+https://qvcuk-live.akamaized.net/hls/live/2097112/qby/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", QVC Extra (540p)
+https://qvcuk-live.akamaized.net/hls/live/2097112/qex/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", QVC Style (United Kingdom) (540p)
+https://qvcuk-live.akamaized.net/hls/live/2097112/qst/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Qwest TV Jazz & Beyond (1080p)
+https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Rakuten TV Action Movies UK (1080p)
+https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Rakuten TV Comedy Movies UK (1080p)
+https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Rakuten TV Drama Movies UK (1080p)
+https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Rakuten TV Family Movies UK (1080p)
+https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Rakuten TV Top Movies UK (1080p)
+https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Red Bull TV UK (1080p)
+https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", RugbyPass TV (720p)
+https://jmp2.uk/plu-66f137cb483d460008ece053.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Sabrina The Teenage Witch
+https://jmp2.uk/plu-66276091cee0d900085fe053.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Sangat TV (576p)
+https://mumt06.tangotv.in/qYyB8fXVSANGATTV/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Sanskar UK (1080p)
+https://d34z4embz0hjf6.cloudfront.net/out/v1/7ac2789ff9a544a49337d1ffc54ce61c/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Scorpion (Germany)
+https://jmp2.uk/plu-63d000ef4e83e700086e0d6c.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Sensing Murder
+https://jmp2.uk/plu-5e9ed47c26ebb000074af566.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Sheffield Live TV (360p) [Not 24/7]
+http://tv.sheffieldlive.org/hls/main.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Sky News Weather (720p)
+https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", So... Real UK (720p)
+https://all3media-soreal-1-gb.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧",South Park (Germany) GB
+https://jmp2.uk/plu-64edf6eaa7ec0d000812f58c.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Spark TV (1080p)
+https://candlelightmedia-sparklightlove-4-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Star Bharat (576p)
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavBharat.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Star Vijay UK (396p)
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", StarPlus (United Kingdom) (576p)
+https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Strongman UK (720p)
+https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", talkSPORT (1080p)
+https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", TalkTV (1080p)
+https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Tastemade UK (1080p)
+https://tastemade-tdint-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", TBN UK (1080p)
 https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/tbn-live/manifest.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Teen Mom (Germany) GB
+https://jmp2.uk/plu-62d550d81054990007db7798.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Teletubbies (720p)
+https://dv8lsrd8fecw9.cloudfront.net/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", That's 70s (720p)
+https://jmp2.uk/plu-69ef53e12f4d2b4f9c582e76.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", That's 80s (720p)
+https://jmp2.uk/plu-69ef54f3c700cf0140272def.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", The Chat Show Channel (1080p)
+https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", The Graham Norton Show (1080p)
+https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", The Nanny
+https://jmp2.uk/plu-6391cef9edb23c0008598cee.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", The New Detectives (Germany)
+https://jmp2.uk/plu-5e393d5c696b3b0009775c8b.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", The Yellow Couch with Jeremy Lynch
+https://jmp2.uk/plu-68e8ffee9d1d49e672fe790f.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", TJC (1080p)
+https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Top Gear (720p)
+https://jmp2.uk/plu-636adc255bcf470007d6e0e2.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Totally Turtles (Germany) GB
+https://jmp2.uk/plu-656ef4af4261ca00083c8f37.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Totalmusic 80s (720p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Totalmusic 2000s (720p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Totalmusic (1080p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Totalmusic Concerts (720p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Totalmusic Dance (720p)
+https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Trace UK (1080p)
+https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Trailers UK (1080p)
+https://amg01821-lovetvchannels-lovemagazineuk-samsungse-p1sf1.amagi.tv/playlist/amg01821-lovetvchannels-lovemagazineuk-samsungse/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", True Crime (1080p)
+https://b6cca454.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UcnVlQ3JpbWVVS2Zyb21DQlNSZWFsaXR5X0hMUw/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Undercover Boss Global (720p)
+https://all3media-international-undercoverboss-1-au.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Unsolved Mysteries UK
+https://jmp2.uk/plu-5bd05b4694d45d266bc951f2.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Utsav Bharat (720p)
+https://d1taaads3ztvmu.cloudfront.net/120723/smil:lifeokuk.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", V2BEAT TV (720p) [Not 24/7]
+https://abr.de1se01.v2beat.live/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Vantage Music UK (1080p) [Geo-blocked]
+https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", WaterBear (1080p)
+https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Wild at Heart
+https://jmp2.uk/plu-60817936fd2d70000763d2b2.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Wonder (1080p)
+https://lds-wonder-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", World Poker Tour UK (1080p)
+https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", XITE Hits UK (1080p)000
+https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", Zee One (1080p)
+https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", HOMES UNDER THE HAMMER (VPN)
+https://all3media-homes-under-the-hammer-1-dk.samsung.wurl.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", PEOPLE ARE AWESOME
+https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", GB NEWS
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", BRAT TV (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00350-bratstudio-brattv-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", BABY SHARK TV (GB)
+https://newidco-babysharktv-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", HOMEFUL (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01446-blueantmediacan-homefulworldwide-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", HOMES UNDER THE HAMMER (GB)
+https://all3media-homes-under-the-hammer-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", HNC FREE (UK)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/hncAAAAAA-hncfree-lg-uk/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", HAUNT TV (UK)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-hanuttvuk-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", INFAST (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-lifestyle-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", LOVE PETS (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01576-blueskyeenterta-lovepetsemea-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", LOVE WINE (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovewineusuk-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", POP KIDS (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", POP FLIX (GB)
+https://signatureentertainment-popflix-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", REAL WILD (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", WIPEOUT XTRA (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-wipeoutxtra-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", UNBEATEN (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00721-inverleigh-unbeatengb-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", TIMELINE (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-timeline-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", THE BIGGEST LOSER (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00627-banijaygroup-biggestlooser-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", SPARKLE MOVIES (GB)
+https://candlelightmedia-sparklemovies-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MTRSPT 1 ALT (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MECH PLUS (GB)
+https://mechtvltd-mechplus-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", STRONG MANS CHAMPION LEAGUE (GB)
+https://rightsboosterltd-scl-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", TRAVEL XP (GB)
+https://travelxp-travelxp-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", WATCHMOJO (GB)
+https://watchmojo-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", ARTFLIX (GB)
+https://amogonetworx-artflix-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", AUTENTIC HISTORY (GB)
+https://autentic-autentichistory-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", AUTENTIC TRAVEL (GB)
+https://autentic-autentictravel-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", BIGTJME (GB)
+https://amogonetworx-bigtjme-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", FUEL TV (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaen-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", GREAT BRITISH MENU (GB)
+https://all3media-great-british-menu-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", GRJNGO (GB)
+https://amogonetworx-grjngo-3-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", SO...REAL (GB)
+https://all3media-soreal-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", WONDER (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wonder-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", WEDO BIG DOCS (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-wedobigdocs-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", WATERBEAR NETWORK (GB)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbear-lggb/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", FILMZIE (GB)
+https://filmzie-filmzie-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", ADVENTURE EARTH (GB)
+https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MOCONOMY (GB)
+https://amogonetworx-moconomy-2-gb.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", CAFE TRADE TV
+https://cafetradehls.wns.live/hls/stream.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", HALA LONDON (1080P)
+https://halalondon-live.ercdn.net/halalondon/halalondon_1080p.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MAVERICK BLACK CINRMA
+https://bad6f547d5364da0b2fe3080c5a48068.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_MaverickBlackCinema/playlist.m3u8?ads.wurl_channel=527&amp;ads.wurl_name=MaverickBlackCinema&amp;ads.us_privacy=1---&amp;ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.targetopt=0&amp;ads.plex_token=Tog8X6wK6iweuzGFsz6p&amp;ads.plex_id=5ef4e1b40d9ad000423c4430&amp;ads.ua=okhttp%2F4.9.0&amp;ads.app_bundle=com.plexapp.android&amp;ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&amp;ads.gdpr=0&amp;ads.consent=0&amp;ads.device_type=handset&amp;ads.device_id_type=
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", 360 TV SD
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", 360 [HD]
+https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MOVIE SPHERE [PLUTO]
+https://moviesphereuk-samsunguk.amagi.tv/playlist1080p.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", UK | KANSHI TV
+http://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", SHELANU TV (720P)
+https://1247634592.rsc.cdn77.org/1247634592/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", SKY NEWS ARABIA
+https://stream.skynewsarabia.com/hls/sna_720.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", THE BIG FLIPPING BREAK
+https://133a0f79750743b7bd41950eaec76dc1.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_MoreU/playlist.m3u8?ads.wurl_channel=881&amp;ads.wurl_name=MoreU&amp;ads.coppa=0&amp;ads.us_privacy=1---&amp;ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.targetopt=0&amp;ads.plex_token=vB1fQVteisRvSpyJtSgH&amp;ads.plex_id=6112a9139894c8002c6cb87f&amp;ads.ua=okhttp%2F4.9.0&amp;ads.app_bundle=com.plexapp.android&amp;ads.app_store_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.plexapp.android&amp;ads.gdpr=0&amp;ads.consent=0&amp;ads.device_type=handset&amp;ads.device_id_type=
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", PRANK VODEO SHOWDOWN
+https://linear-12.frequency.stream/dist/plex/12/hls/master/playlist.m3u8?ads.plex_token=Tog8X6wK6iweuzGFsz6p&amp;ads.plex_id=5ef11486d33ab9004048a1cd&amp;ads.device_id=62274240-07e7-5d94-8dc8-ef68cf19e175&amp;ads.dnt=0&amp;ads.us_privacy=1---
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", IRAN INTERNATIONAL (1080P)
+https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", TIME LINE HD
+https://timeline-samsung-uk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", V2BEAT HD
+https://de1se01.v2beat.live/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", AAJ TAK (404P)
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", MOONBUG KIDS (720P)
+https://mumbai-edge.smartplaytv.in/Moonbug/index.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", NOW 70'S
+https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", NOW 80'S
+https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", S4C (1080P) [GEO-BLOCKED]
+https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", TLNOVELAS EUROPA (720P)
+https://televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="ВЕЛИКОБРИТАНИЯ 🇬🇧", WONDER
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8
+
+
+
 #EXTINF:-1 group-title="IRELAND 🇮🇪",AFV FAMILY
 https://futuretoday-afv-family-2-ie.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="IRELAND 🇮🇪",EURONEWS ENGLISH (720P)
