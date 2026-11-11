@@ -2833,6 +2833,8 @@ http://62.32.84.50:18000/play/a0kx/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ🔎", АВТО 24
 http://89.218.32.179:18000/play/a03d
 
+#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ🔎"tvg-logo="http://img.prosto.tv/storage/channel/logo/ch00096.png" channelId="442" tvg-id="1auto",Перший Автомобільний
+http://stream.mcquack.net/404/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ🔎"tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" ,1autotvru
 rtmp://vkvsd158.okcdn.ru/playback/10332204051428?stkn=hVx0kn1sfv1eSrGAlIcUsySgZkHrd9_xf3lTnhlbP9v3QWoCIPDZ6tWCko0yGbsh45skapyzpt4&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ🔎",Мото Драйвᴴᴰ
@@ -6394,9 +6396,15 @@ http://stream.mcquack.net/472/index.m3u8
 http://stream.mcquack.net/471/index.m3u8
 #EXTINF:-1 group-title="КИНО📺"  ,Cineman Чип и Дейл
 http://stream.mcquack.net/484/index.m3u8
+#EXTINF:-1  group-title="КИНО📺" tvg-logo="https://epg.iptvx.one/picons/kino-1.png" tvg-id="kino-1" channelId="-1" tvg-id="kino-1",Kino 1
+http://stream.mcquack.net/395/index.m3u8
+#EXTINF:-1 group-title="КИНО📺"  tvg-id="kino-1-hd" tvg-logo="https://epg.iptvx.one/picons/kino-1-hd.png",Kino 2
+http://stream.mcquack.net/465/index.m3u8
+#EXTINF:-1 group-title="КИНО📺"tvg-id="kinowood"tvg-logo="https://epg.iptvx.one/picons/kinowood.png",Kinowood
+http://stream.mcquack.net/446/index.m3u8
 
-
-
+#EXTINF:-1 group-title="КИНО📺",kino kanal
+http://stream.mcquack.net/470/index.m3u8
 
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺",грузинские фильмы
 
@@ -6794,6 +6802,7 @@ http://kinowalk.hopto.org/vktv_hd_cinema_live
 http://kinowalk.hopto.org/wfliq_live
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="КИНО📺",Wihail HD
 http://kinowalk.hopto.org/wihail_live
+
 
 
 #EXTINF:-1 group-title="КИНО📺",Киноман
@@ -7552,7 +7561,8 @@ https://flussonic.mkpnet.ru/tv-c90a71c34cc779ac/video.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="КИНО📺"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="ExoPlayer2/2.37",РУССКИЙ РОМАН
 http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132686&extension=ts&play_token=y09y9mCCdi
 
-
+#EXTINF:-1  group-title="КИНО📺"tvg-logo="http://ex.iptvin.ru/pic/2/Nashe-220x220.png" logo="http://overlay.iptvin.ru/epg/PIC/NASHEKRUTOE.png" channelId="1635" tvg-id="nashesd",Наше
+http://stream.mcquack.net/217/index.m3u8
 #EXTINF:-1 group-title="КИНО📺"tvg-id="nashehd"tvg-logo="https://cs1.ottgoods.ru/media/v2/2565aa82-ad7b-4c52-be14-83b263d67807",Наше HD
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Nashe_krutoe_HD.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
 
@@ -13075,6 +13085,16 @@ http://stream.mcquack.net/390/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆"  ,Setanta Sports UA
 http://stream.mcquack.net/313/index.m3u8
 
+#EXTINF:-1 group-title="СПОРТ 🏆" tvg-id="sport1-ua"tvg-logo="https://epg.iptvx.one/picons/sport1ua.png",Sport 1
+http://stream.mcquack.net/391/index.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆" tvg-id="sport2-ua"tvg-logo="https://epg.iptvx.one/picons/sport2ua.png",Sport 2
+http://stream.mcquack.net/392/index.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆" tvg-id="sport3-ua"tvg-logo="https://epg.iptvx.one/picons/sport3-ua.png",Sport 3
+http://stream.mcquack.net/393/index.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆" tvg-id="sport4-ua" tvg-logo="https://epg.iptvx.one/picons/sport4-ua.png",Sport 4
+http://stream.mcquack.net/394/index.m3u8
+#EXTINF:-1 group-title="СПОРТ 🏆" tvg-id="sport5"tvg-logo="https://epg.iptvx.one/picons/sport5.png",Sport 5
+http://stream.mcquack.net/212/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆", SETANTA УКРАИНА HD
 
 
@@ -14151,13 +14171,11 @@ http://188.225.31.197/bpk-tv/000008877/tve/index.m3u8
 
 #EXTINF:-1 group-title="КУХНЯ", ТЕЛЕКАФЕ
 http://31.148.48.15/Telekafe/index.m3u8
-#EXTINF:-1 group-title="КУХНЯ",Food Network HD
-http://stream.mcquack.net/298/index.m3u8
-#EXTINF:-1 group-title="КУХНЯ",Food Network HD
-http://stream.mcquack.net/216/index.m3u8
-#EXTINF:-1 group-title="КУХНЯ",Food Time HD
-http://stream.mcquack.net/216/index.m3u8
 
+#EXTINF:-1 group-title="КУХНЯ"tvg-logo="https://www.cableman.ru/sites/default/files/food_obychnyy.jpg" logo="https://www.graphicdesignforum.com/uploads/default/original/2X/e/eb00102885a314623dd97d0c56f34357cb1e0be5.png" channelId="1244" tvg-id="food-network",Food Network
+http://stream.mcquack.net/298/index.m3u8
+#EXTINF:-1  group-title="КУХНЯ"tvg-logo="http://ex.iptvin.ru/pic/2/Food-Time-220x220.png" logo="http://ex.iptvin.ru/pic/2/Food-Time-220x132-tr.png" channelId="232" tvg-id="eda-hd",Food Time
+http://stream.mcquack.net/216/index.m3u8
 #EXTINF:-1 group-title="КУХНЯ", WOMEN'S MAGAZINE HD
 https://stream-msk-20.ott.tricolor.tv/dtv/id1020_MSKSG-PVR-1--WomensMagazine_SD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
 
@@ -17150,6 +17168,9 @@ http://mp3channels.webradio.antenne.de/das-schlager-karussell
 http://mp3channels.webradio.antenne.de/top-40
 
 
+
+#EXTINF:-1 group-title="СТРОГО 18+"  parent-code="1234" tvg-logo="http://ex.iptvin.ru/pic/2/03c423cb79ed9bb410ba0ea138d45890.png" logo="http://ex.iptvin.ru/pic/2/9d35136f4d2a49587920e990817fc203.png" channelId="5048" tvg-id="exxxotica",Exxxotica
+http://stream.mcquack.net/57/index.m3u8
 #EXTINF:-1 group-title="СТРОГО 18+" parent-code="1234" tvg-logo="https://image.winudf.com/v2/image1/Y29tLmJhYmVzdHYudHZiYWJlc19zY3JlZW5fM18xNTQyNzQ5ODE5XzAyOQ/screen-3.jpg?fakeurl=1&type=.jpg" logo="https://img11.lostpic.net/2018/08/07/2acc188a067e8126eec752a55d3ba4f9.png" channelId="3886" tvg-id="babes-tv",Babes TV
 http://stream.mcquack.net/55/index.m3u8
 #EXTINF:-1 group-title="СТРОГО 18+",StrahTV PlayBoyz TV HD
@@ -26081,7 +26102,8 @@ http://82.209.197.187:8080/udp/239.0.100.124:1234
 
 
 
-
+#EXTINF:-1 group-title="УКРАИНА 🇺🇦 Українські",FilmUADrama
+http://stream.mcquack.net/273/index.m3u8
 #EXTINF:-1 group-title="УКРАИНА 🇺🇦 Українські"   tvg-logo="http://only4.tv/ch/6182.png" logo="http://overlay.iptvin.ru/epg/PIC/%D0%A4%D0%B0%D1%83%D0%BD%D0%B0.png" channelId="4814" tvg-id="fauna",Фауна
 http://stream.mcquack.net/401/index.m3u8
 #EXTINF:-1 group-title="УКРАИНА 🇺🇦 Українські"   tvg-logo="https://i.postimg.cc/52dvJ2RF/fd9eed370e128931bfc9cc7a5c0efb0d.png" logo="https://i.postimg.cc/VNwjqk9c/d93bf5403bb86b4b939efbd46b610d42.png" channelId="-1" tvg-id="front-ua",Фронт
