@@ -6257,18 +6257,7 @@ http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8
 #EXTINF:-1 group-title="КИНО📺"tvg-logo="https://i.ibb.co/ZpRXL3jP/image-4.png",Южный Парк
 
 
-#EXTINF:-1 group-title="КИНО📺"  ,Cine Max
-http://stream.mcquack.net/476/index.m3u8
-#EXTINF:-1 group-title="КИНО📺"  ,CineMax 2
-http://stream.mcquack.net/475/index.m3u8
-#EXTINF:-1 group-title="КИНО📺"  ,CineMax 3
-http://stream.mcquack.net/474/index.m3u8
-#EXTINF:-1 group-title="КИНО📺"  ,CineMax 4
-http://stream.mcquack.net/472/index.m3u8
-#EXTINF:-1 group-title="КИНО📺"  ,CineMax 5
-http://stream.mcquack.net/471/index.m3u8
-#EXTINF:-1 group-title="КИНО📺"  ,CineMax
-http://stream.mcquack.net/484/index.m3u8
+
 
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://vits.tv/images/tvstation/russia/1filmax.webp"group-title="КИНО📺",1FILMAX фантастика
 
@@ -6328,7 +6317,7 @@ http://iptv.iptvin.ru/userplaylists/rutube.php?id=1786622e52a6864eb3fd66b83733fe
 
 #EXTINF:-1 group-title="КИНО📺",ТВОЙ КИНОТЕАТР КРУГЛОСУТОЧНЫЙ ПРЯМОЙ ЭФИР
 http://iptv.iptvin.ru/userplaylists/rutube.php?id=e08e513c4e33f52fce3a975b5cb6932c
-#EXTINF:-1 group-title="КИНО📺",Фильмач
+#EXTINF:-1 group-title="КИНО📺"tvg-name="Двач" tvg-logo="https://pic.rtbcdn.ru/user/d0/24/d02422c0078c8517a1a4c2678a25529b.jpg",Двач
 https://bl.rutube.ru/livestream/300560a65014ec501a25b1f79df9ad90/index.m3u8?s=IkAyte2dIfXSoC3Jve4bkQ&e=2092651867&scheme=https
 #EXTINF:-1 group-title="КИНО📺" tvg-name="Двач" tvg-logo="https://pic.rtbcdn.ru/user/d0/24/d02422c0078c8517a1a4c2678a25529b.jpg",Двач
 https://bl.rutube.ru/livestream/300560a65014ec501a25b1f79df9ad90/index.m3u8?s=gDOhfmWnk0J89LgBtDU-BQ&e=2089560978&scheme=https
@@ -6387,13 +6376,24 @@ http://stream.mcquack.net/354/tracks-v1a1/mono.ts.m3u8
 http://stream.mcquack.net/355/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="КИНО📺",CineMan Комедия
 http://stream.mcquack.net/356/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="КИНО📺",Cineman VHS HD
+#EXTINF:-1 group-title="КИНО📺"tvg-id="cineman-vhs"tvg-logo"https://epg.iptvx.one/picons/cineman-vhs.png",Cineman VHS HD
 http://stream.mcquack.net/474/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="КИНО📺"  tvg-id="cineman-vhs"tvg-logo"https://epg.iptvx.one/picons/cineman-vhs.png",Cineman VHS HD
+http://stream.mcquack.net/474/index.m3u8
 #EXTINF:-1 group-title="КИНО📺",CineMan Сваты HD
 http://stream.mcquack.net/359/tracks-v1a1/mono.ts.m3u8
 
+#EXTINF:-1 group-title="КИНО📺" tvg-id="cineman-simps"  tvg-logo"https://epg.iptvx.one/picons/cineman-simps.png",CineMan Симпсоны
+http://stream.mcquack.net/476/index.m3u8
+#EXTINF:-1 group-title="КИНО📺"  tvg-id="cineman-skorpom" tvg-logo="https://epg.iptvx.one/picons/cineman-skorpom.png",CineMan Скорая помощь
+http://stream.mcquack.net/475/index.m3u8
 
-
+#EXTINF:-1 group-title="КИНО📺"  ,Cineman
+http://stream.mcquack.net/472/index.m3u8
+#EXTINF:-1 group-title="КИНО📺"  ,Cineman
+http://stream.mcquack.net/471/index.m3u8
+#EXTINF:-1 group-title="КИНО📺"  ,Cineman Чип и Дейл
+http://stream.mcquack.net/484/index.m3u8
 
 
 
