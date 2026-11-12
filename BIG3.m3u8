@@ -62,11 +62,11 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/variant.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko)  Mobile/15E148, WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer 
 https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8
 #EXTINF:-1 group-title="ОБЩИЕ" tvg-id="rtr-planeta-amerika" tvg-logo="https://epgx.site/p/rtr-planeta.png",РТР-Планета Америка 
-http://player.smotrim.ru/iframe/stream/live_id/cf22fa5c-e21a-433e-8317-7e8dd3150d6a.m3u8
+https://stream.smotrim.ru/hls/planeta_rtr_usa/playlist.m3u8?entity=channel&id=513&sign=3ac5d8e2db71ef7fc3d4becbff7512d8
 #EXTINF:-1 group-title="ОБЩИЕ" tvg-id="rtr-planeta-azia" tvg-logo="https://epgx.site/p/rtr-planeta-azia.png",РТР-Планета Азия
-http://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363.m3u8
+https://stream.smotrim.ru/hls/planeta_rtr_asia/playlist.m3u8?entity=channel&id=511&sign=d1fe06cd922b67e412719536998fa43d
 #EXTINF:-1 group-title="ОБЩИЕ" tvg-id="rtr-planeta-eu" tvg-logo="https://epgx.site/p/rtr-planeta.png",РТР-Планета Евро
-http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
+https://stream.smotrim.ru/hls/planeta_rtr_euro/playlist.m3u8?entity=channel&id=510&sign=5c0ac65d75140fac2fd938d77c92138d
 
 #EXTINF:-1 group-title="ОБЩИЕ" tvg-id="rtr-planeta-eu" tvg-logo="https://epgx.site/p/rtr-planeta.png",РОССИЯ РТР HD720 (СНГ) (auto)
 http://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f.m3u8
@@ -930,7 +930,8 @@ http://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/2.m3u8
 
 
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS",ИЗВЕСТИЯ HD
-
+#EXTINF:-1 group-title="НОВОСТИ📰NEWS" tvg-logo="https://toplogos.ru/images/logo-iz.png" channelId="1104" tvg-id="izvestia",Известия
+http://iptv.iptvin.ru/userplaylists/rutube.php?id=3c47861a8b4b51639e41be092053b966
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS", ИЗВЕСТИЯ
 http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
 
@@ -954,14 +955,8 @@ https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/playlist_1080.m3u8
 http://stream.mcquack.net/384/index.m3u8
 
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS" tvg-id="rtvi" tvg-logo="http://picons.cmshulk.com/picons/300928.png",RTVi HD
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
+
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS" tvg-logo="https://stv.ee/images/chlogos/Logo_new.png" logo="http://ex.iptvin.ru/pic/2/RTVi-527x316-tr.png" channelId="405" tvg-id="rtvi",RTVI
-
-#EXTINF:-1 group-title="НОВОСТИ📰NEWS",RTVi
-
-#EXTINF:-1 group-title="НОВОСТИ📰NEWS",RTVi
-
 
 #EXTINF:-1 group-title="НОВОСТИ📰NEWS",RTVi
 
@@ -3139,9 +3134,8 @@ http://31.210.208.171:8080/nostalgiya/index.m3u8?token=+W2MSER
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Ностальгия
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-http://31.148.48.15:80/Nostalgiya/index.m3u8?token=test
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Ностальгия
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-id="nostalgia" tvg-logo="https://epg.iptvx.one/picons/nostalgia.png",Ностальгия
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://178.124.152.238:8088/nostalgia
 
@@ -3149,20 +3143,28 @@ http://178.124.152.238:8088/nostalgia
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Вне закона
 
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Сарафан
+http://31.210.208.171:8080/sarafan/index.m3u8?token=+W2MSER
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Сарафан
+
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Сарафан
 #EXTINF:-1 tvg-id="sarafan" group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈", Сарафан
 http://stream-msk-12.ott.tricolor.tv/dtv/id258_MSKSG-PVR-1--Sarafan/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
 
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Сарафан
-http://178.212.71.253:8000/play/44/index.m3u8
-
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Сарафан
-
-
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Сарафан
-http://178.217.72.66:8080/Sarafan/index.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Телекафе
 http://31.210.208.171:8080/telecafe/index.m3u8?token=+W2MSER
+
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Телекафе
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+http://195.64.140.147:10026/26
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Телекафе
+
+
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://cs1.ottgoods.ru/media/v2/2c731ffc-8c4d-49da-aedb-de9eafbb2a1b" channelId="161" tvg-id="telekafe",Телекафе
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
@@ -3171,14 +3173,6 @@ http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Telecafe.m3u8
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://cs1.ottgoods.ru/media/v2/2c731ffc-8c4d-49da-aedb-de9eafbb2a1b" channelId="161" tvg-id="telekafe",Телекафе
 https://stream-msk-09.ott.tricolor.tv/dtv/id366_MSKSG-PVR-1--Telecafe/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
 
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Телекафе
-http://195.64.140.147:10026/26
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Телекафе
-https://a3569457567-s70378.cdn.ngenix.net/telecafe/2/index.m3u8
-
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТЕЛЕКАФЕ
-#EXTVLCOPT:http-user-agent=SmartTV
-http://31.148.48.15:80/Telekafe/index.m3u8?token=test
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-logo="https://cs1.ottgoods.ru/media/v2/7a865134-2817-4f61-b8d1-c62e1a5c838e",Клуб юмора
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Kinozal28_SD.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
@@ -3196,9 +3190,10 @@ http://77.235.1.19:8000/play/a05b/index.m3u8
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",КВН ТВ
 http://31.210.208.171:8080/kvn_tv/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",КВН ТВ
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"  tvg-name="EvGAMEN" tvg-logo="https://lh3.googleusercontent.com/a/ACg8ocJRCQczrVJsPbG0Q7qgMvphfUBuJiGktsI7wwPXSYxQCcGPBu8=s96-c",Evgamen
-http://kinowalk.hopto.org/evgamen_movies_live
+
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-logo="https://avatars.mds.yandex.net/get-vthumb/4055865/9c599f4380c90cbbc8604c8fcbdd130a/564x318_1" tvg-id="no_epg", кинозал 31
 https://live-mirror-19.ott.tricolor.tv/dtv/id1037_MSKSG-PVR-1--Kinozal_31/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
@@ -3208,7 +3203,7 @@ http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=Kinozal28_SD.
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈", 33 квадратных метра
-http://kinowalk.hopto.org/33metra_live
+
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-logo="https://i.postimg.cc/rmGxq8Ls/1.jpg",Осторожно модерн
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-logo="https://i.postimg.cc/rmGxq8Ls/1.jpg",Осторожно модерн 2
@@ -3293,18 +3288,7 @@ https://streaming.astrakhan.ru/telplushd/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТЕАТР
-#EXTVLCOPT:http-user-agent=OnlineTvAppDroid
-http://195.26.83.96:7005/play/16/index.m3u8
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТЕАТР
 
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТЕАТР
-
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТЕАТР
-#EXTVLCOPT:http-user-agent=OnlineTvAppDroid
-http://193.25.8.59:8000/teatr
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТЕАТР
-#EXTVLCOPT:http-user-agent=OnlineTvAppDroid
-http://195.26.83.96:7005/play/16/index.m3u8
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-id=\"6179\" tvg-logo=\"http://epg.it999.ru/img2/6179.png\"  ,Liberty Занавес  HD
@@ -3317,13 +3301,6 @@ https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" ,Балет Опера HD
 
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Балет Опера HD
-
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Балет Опера HD
-
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" ,Балет Опера HD
-
-
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",UNITEL CLASSICA HD
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Classic Music
@@ -3335,16 +3312,16 @@ https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
 http://api.alpaca.t62a.com/hls/9113/stream0.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТНТ Exclusiv TV
-http://212.0.213.132:8084/TNT_Exclusive/index.m3u8
+
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТНТ Exclusiv TV
 http://185.163.194.185:6987/7/mpegts
-
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",TVM Channel
-http://stream-msk-11.ott.tricolor.tv/dtv/id655_MSKSG-PVR-1--TVMChannel/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",TVM CHANNEL
 http://cdn-01.bonus-tv.ru:80/tvm_edge/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",TVM Channel
+http://stream-msk-11.ott.tricolor.tv/dtv/id655_MSKSG-PVR-1--TVMChannel/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
+
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Домашний International
 
@@ -3355,7 +3332,7 @@ http://87.76.32.36:9106/udp/238.1.1.192:1234
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",E TV HD
-http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
+
 
 
 
@@ -3363,9 +3340,9 @@ http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",СТС HD
-https://livetv.mylifeisgood.net.ru/channels/sts.m3u8
+
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",СТС HD
-http://92.53.64.197:5050/sts_hd/video.m3u8?token=m3VIth-Rou_bM1
+
 
 #EXTINF:-1 tvg-name="1112.216" tvg-logo="http://bezbe.my1.ru/logo/sts.png" tvg-shift=-2 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",СТС (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko)  Mobile/15E148, WINK/1.28.2 (AndroidTV/11) HlsWinkPlayer 
@@ -3378,22 +3355,24 @@ http://s91412.cdn.ngenix.net/mdrm/CH_STS_4/variant.m3u8
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",СТС Love
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://188.134.76.176:81/udp/235.10.10.2:1234
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-logo=\"http://epg.it999.ru/img/1322.png\",СТС Love
-http://185.112.140.28:80/STS_Love/index.m3u8
 
 
 
+
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Перец 
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Перец International
-http://stream01.vnet.am/Perec/mono.m3u8
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",Перец International
-http://178.124.179.122:8088/Peretz/index.m3u8
+
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"  ,ТНТ4 HD
-
+http://31.210.208.171:8080/tnt4/index.m3u8?token=+W2MSER
 https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",ТНТ4 
-http://185.112.140.28:80/TNT4/index.m3u8
+
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",SUPER YACHT TV(VPN)    
 https://sy.wns.live/hls/stream.m3u8
@@ -3410,9 +3389,8 @@ http://s1.tv-nano.com/Luxury_rec/video.m3u8
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"tvg-logo="https://cs1.ottgoods.ru/media/v2/ff60a71e-5a0f-4cad-961f-a253e2b961da"logo="http://ex.iptvin.ru/pic/2/22654940aeed4b5e8654e5c870d2915a.png" channelId="14" tvg-id="2na2",2x2 HD
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=2x2.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
 
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"  ,2х2
 
-#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",2х2
+
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-logo="http://ex.iptvin.ru/pic/2/024614b06bdfdc2444ef5229fab8773c.png" logo="http://ex.iptvin.ru/pic/2/22654940aeed4b5e8654e5c870d2915a.png" channelId="14" tvg-id="2na2",2x2
 http://stream.mcquack.net/187/tracks-v1a1/mono.ts.m3u8
 
@@ -3427,7 +3405,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈",FAN
-
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+http://stream.mcquack.net/420/tracks-v1a1/mono.ts.m3u8
 
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Че
@@ -3444,6 +3423,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"  ,Ю
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 http://s18209.cdn.ngenix.net/hls/CH_R03_U/playlist.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Ю
@@ -3461,7 +3441,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈"  ,Суббота! HD
 
-http://92.53.64.197:5050/subbota_hd/video.m3u8?token=m3VIth-Rou_bM1
+#EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" tvg-logo="http://ex.iptvin.ru/pic/2/034-subbota.jpg" logo="http://ex.iptvin.ru/pic/2/Subbota-220x132-tr.png" channelId="3876" tvg-id="super" shift="3",Суббота!
+http://iptv.iptvin.ru/userplaylists/rutube.php?id=310744c10a5809da38aa445c952976da
+
 
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ🐈" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Супер
 #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
@@ -3678,25 +3660,26 @@ https://live-mirror-18.ott.tricolor.tv/dtv/id1007_MSKSG-PVR-1--kinozal_21_sd/04/
 
 #EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-logo="https://cs1.ottgoods.ru/media/v2/2f2a04eb-e59e-44a2-8ba9-188f8ce18aeb",Доктор И
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=kinozal_21_sd.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
+
 #EXTINF:-1 group-title="ЗДОРОВЬЕ"tvg-logo="https://i.ibb.co/SXsV7qpb/image-26,Сити Эдем МедЗдрав
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://cityeden.catcast.tv/content/47519/index.m3u8
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",Первый Медицинский канал
 https://rq3qltxnbx1.a.trbcdn.net/livemaster/8hwxnq4s0v_efir0_tcode1080p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="otkryty-mir""tvg-logo="https://epg.iptvx.one/picons/otkryty-mir.png" group-title="ЗДОРОВЬЕ"catchup=""catchup-source=""catchup-days="":http-referrer="":http-user-agent="",Открытый мир
 http://v4.proofix.ru/0mir/index.m3u8
+
+#EXTINF:-1 group-title="ЗДОРОВЬЕ",ДОКТОР
+http://stream.mcquack.net/80/index.m3u8
+#EXTINF:-1 group-title="ЗДОРОВЬЕ",ДОКТОР
+http://185.46.16.239:8000/Doktor
+#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-logo="http://ex.iptvin.ru/pic/2/536f4f356ac9050674dc07768a40b5dc.png" logo="http://ex.iptvin.ru/pic/2/d38b91a6b112f9ccff6f7ddbc723a79d.png" channelId="3647" tvg-id="doktor",Доктор
+https://stream8.cinerama.uz/1409/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",ДОКТОР
 https://stream-msk-06.ott.tricolor.tv/dtv/id936_MSKSG-PVR-1--Doktor_SD/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NjIxOTAwODYwMjk2MyIsImV4cCI6MTc5NDAwNDU1OSwiaHdpZCI6IjRjYzRkODliOGI2ODIxZTZhZGM5NDdiZGRlMmRkMmQ2MDM3MjYzMTM3ODFhODk2Nzc4MGNjMDI2YzRhZmE0ZDUiLCJsYXN0X3JlcV9kYXRlIjoxNzkzMzk5NzU5LCJzZXNzaW9uX2lkIjoiZmUwZTI0MmYyODBlODNkYWZjODlkMTIxNDZlYzk2MmQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.8ccVdDK1M4oVteGy_OorNY1hvBrkk2yDQ9xAjDcfXjk
 
 
-#EXTINF:-1 group-title="ЗДОРОВЬЕ",ДОКТОР
-
-#EXTINF:-1 group-title="ЗДОРОВЬЕ",ДОКТОР
-http://178.212.71.253:8000/play/68/index.m3u8
-#EXTINF:-1 group-title="ЗДОРОВЬЕ",ДОКТОР
-http://77.235.1.19:8000/play/a07a/index.m3u8
-#EXTINF:-1 group-title="ЗДОРОВЬЕ",ДОКТОР
-http://31.148.48.15:80/Doktor/index.m3u8?token=test
 
 
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",Взвешенные люди
@@ -3704,18 +3687,19 @@ http://31.148.48.15:80/Doktor/index.m3u8?token=test
 
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",ЗДОРОВОЕ ТВ
 http://stream1.cinerama.uz/1428/index.m3u8
-#EXTINF:-1 group-title="ЗДОРОВЬЕ",ЗДОРОВОЕ ТВ
-http://178.212.71.253:8000/play/94/index.m3u8
+#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-logo="http://only4.tv/ch/6265.png" logo="http://epg.openboxfan.com/picon/%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%BE%D0%B5%D1%82%D0%B2.png" channelId="247" tvg-id="zdorovoe-tv",Здоровое ТВ
+https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
+
 
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",ЗДОРОВОЕ ТВ
 https://flussonic.mkpnet.ru/tv-92fa9d648cab0f3f/video.m3u8
 
+
+
 #EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-logo="https://avatars.mds.yandex.net/i?id=94168a342bce281c49a6d3657da8e803ea0aff06-7755770-images-thumbs&n=13",Здоровое отечество
 
-#EXTINF:-1 group-title="ЗДОРОВЬЕ",Психология
-
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",Психология 21
-http://178.212.71.253:8000/play/96/index.m3u8
+
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",ПСИХОЛОГИЯ 21
 http://31.210.208.171:8080/psihologiya/index.m3u8?token=+W2MSER
 
@@ -3728,39 +3712,34 @@ http://31.210.208.171:8080/psihologiya/index.m3u8?token=+W2MSER
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",MyZen 4K
 
 
-#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-logo="https://www.planetecsat.com/wp-content/uploads/2023/05/Entete-Wellbeing-TV.png",Wellbeing TV ENG
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-https://amg01492-secomsasmediart-myzen-fr-rakuten-spvgz.amagi.tv/hls/amagi_hls_data_rakutenAA-myzen-fr-rakuten/CDN/master.m3u8
-#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-logo="https://www.planetecsat.com/wp-content/uploads/2023/05/Entete-Wellbeing-TV.png",Wellbeing TV ENG
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
 
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",МАМА
 http://stream-msk-11.ott.tricolor.tv/dtv/id519_MSKSG-PVR-1--Mama/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1NzkwMTYyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3Mjk2ODI3LCJzZXNzaW9uX2lkIjoiZGViZGU4OThkZTUwNjIzMGJkNjQ5NDA2NGQ2M2ZjYTgiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.Erk3oqUptlGDma5X-k38v_XmfI6ACN8lCLfCHKsdnbU#EXTINF:-1 group-title="ЗДОРОВЬЕ",МАМА
 
-#EXTINF:-1 group-title="ЗДОРОВЬЕ",МАМА
-http://178.212.71.253:8000/play/86/index.m3u8
+#EXTINF:-1 group-title="ЗДОРОВЬЕ"tvg-id="mama",МАМА
+http://stream.mcquack.net/79/index.m3u8
 
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",МАМА
-http://178.217.72.66:8080/Mama/index.m3u8
+ttps://stream8.cinerama.uz/1244/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",МАМА
-https://45.159.74.22/Mama/mono.m3u8
+
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",36.6 TV
 
-#EXTINF:-1 group-title="ЗДОРОВЬЕ"  ,36.6 HD
-
+#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-id="36-6-tv" ,36.6 HD
+http://stream.mcquack.net/331/index.m3u8
 
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",Здоровье
 
 
-
-
-#EXTINF:-1 group-title="ЗДОРОВЬЕ",ЖИВИ!
-http://46.8.46.14/zhivi/index.m3u8
-#EXTINF:-1 group-title="ЗДОРОВЬЕ",ЖИВИ!
+#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-logo="http://only4.tv/ch/6224.png" logo="http://epg.openboxfan.com/picon/%D0%B6%D0%B8%D0%B2%D0%B8.png" channelId="76" tvg-id="zhivi",ЖИВИ!
+http://iptv.iptvin.ru/userplaylists/rutube.php?id=2560171e488e9ff32b2b1b3628c60439
 
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",ЖИВИ!
-http://31.148.48.15:80/Zhivi/index.m3u8?token=test
+
+#EXTINF:-1 group-title="ЗДОРОВЬЕ",ЖИВИ!
+
+#EXTINF:-1 group-title="ЗДОРОВЬЕ",ЖИВИ!
+
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",ЖИВИ!
 
 
@@ -3772,17 +3751,24 @@ http://stream.mcquack.net/132/index.m3u8
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",Живи Активно HD
 
 #EXTINF:-1 group-title="ЗДОРОВЬЕ",Живи Активно HD
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 https://flussonic.mkpnet.ru/tv-fa810958620d77d8/video.m3u8
+
+
+#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-id="tonus-tv" tvg-logo="https://iptvx.one/picons/tonus-tv.png",Тонус
+http://194.143.148.28:8080/Mir24/mpegts
+
+#EXTINF:-1 group-title="ЗДОРОВЬЕ"  tvg-id="" tvg-logo="https://cdn.epg.one/img2/2425.png",Тонус ТВ
+
 #EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-id="tonus-tv" tvg-logo="https://iptvx.one/picons/tonus-tv.png",Тонус
 http://stream-msk-05.ott.tricolor.tv/dtv/id686_MSKSG-PVR-1--Tonus/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0NTAyNTUwMDM1ODM5NSIsImV4cCI6MTc1NzkwMTYyNywiaHdpZCI6IjhkMjA0NWE1N2E3NjVkYzUyMjVmYzJkZmRlNWY0NzViMDA0NzU0MmFlZDhjMWEyNGNlY2YzODNkY2ZjYmY2MjYiLCJsYXN0X3JlcV9kYXRlIjoxNzU3Mjk2ODI3LCJzZXNzaW9uX2lkIjoiZGViZGU4OThkZTUwNjIzMGJkNjQ5NDA2NGQ2M2ZjYTgiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.Erk3oqUptlGDma5X-k38v_XmfI6ACN8lCLfCHKsdnbU#EXTINF:-1 group-title="ЗДОРОВЬЕ"tvg-id="tonus-tv" tvg-logo="https://iptvx.one/picons/tonus-tv.png",Тонус
 
-
-#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-id="tonus-tv" tvg-logo="https://iptvx.one/picons/tonus-tv.png",Тонус
-http://178.217.72.66:8080/tonus/index.m3u8
-
-#EXTINF:-1 group-title="ЗДОРОВЬЕ"  tvg-id="" tvg-logo="https://cdn.epg.one/img2/2425.png",Тонус ТВ
-http://45.159.74.22/ZooTv/tracks-v1a1/mono.m3u8
-
+#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-logo="https://www.planetecsat.com/wp-content/uploads/2023/05/Entete-Wellbeing-TV.png",Wellbeing TV ENG
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://amg01492-secomsasmediart-myzen-fr-rakuten-spvgz.amagi.tv/hls/amagi_hls_data_rakutenAA-myzen-fr-rakuten/CDN/master.m3u8
+#EXTINF:-1 group-title="ЗДОРОВЬЕ" tvg-logo="https://www.planetecsat.com/wp-content/uploads/2023/05/Entete-Wellbeing-TV.png",Wellbeing TV ENG
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
 
 
 
@@ -13100,7 +13086,12 @@ http://stream.mcquack.net/212/index.m3u8
 
 #EXTINF:-1 group-title="СПОРТ 🏆", SETANTA УКРАИНА HD
 
-
+#EXTINF:-1 group-title="СПОРТ 🏆",SKY SPORT MIX
+http://iptv.iptvin.ru/userplaylists/rutube.php?id=a8983f2de47db830f6a6977cb71a13df
+#EXTINF:-1 group-title="СПОРТ 🏆",SKY SPORTS GOLF
+http://iptv.iptvin.ru/userplaylists/rutube.php?id=a7a17d6b994f02a80aebd69435266b58
+#EXTINF:-1 group-title="СПОРТ 🏆",SKY SPORTS PREMIER LEAGUE
+http://iptv.iptvin.ru/userplaylists/rutube.php?id=e5bacac3b8e730791d4cab20ae81cd8f
 
 #EXTINF:-1 group-title="СПОРТ 🏆",Setanta Ukraine Plus HD
 
